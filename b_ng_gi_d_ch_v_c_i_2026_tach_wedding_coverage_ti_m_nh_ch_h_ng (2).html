@@ -1,0 +1,3096 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bảng Giá Dịch Vụ Cưới 2026 - TACH Wedding Coverage (Tiệm Ảnh Chú Hùng)</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --burgundy: #4A0E17;
+      --burgundy-light: #6B1824;
+      --bronze: #6B3E26;
+      --bronze-soft: #8C583A;
+      --gold: #D4AF37;
+      --gold-soft: #E6C762;
+      --cream: #FBF8F3;
+      --cream-card: #F5EFE6;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--cream);
+      color: #2D1E18;
+    }
+    .font-serif-luxury {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+    }
+    .bg-burgundy-gradient {
+      background: radial-gradient(circle at top right, #6E1A26 0%, #4A0E17 55%, #2E070D 100%);
+    }
+    .gold-border {
+      border-color: rgba(212, 175, 55, 0.35);
+    }
+    .info-btn {
+      transition: all 0.2s ease;
+    }
+    .info-btn:hover {
+      transform: scale(1.08);
+    }
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #F5EFE6;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #B89B72;
+      border-radius: 9999px;
+    }
+  </style>
+</head>
+<body class="min-h-screen pb-28 selection:bg-[#6B3E26] selection:text-white">
+
+  <!-- Top Hero Header (Inspired by PDF Cover Page 1) -->
+  <header class="bg-burgundy-gradient text-[#F5E6C8] relative overflow-hidden border-b-2 border-[#D4AF37]/40 shadow-lg">
+    <!-- Subtle floral SVG ornament corners -->
+    <svg class="absolute top-0 left-0 w-36 h-36 opacity-15 pointer-events-none text-[#D4AF37]" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1">
+      <path d="M0,0 C30,10 50,30 60,60 C40,50 20,30 0,0 Z" />
+      <path d="M0,20 C25,25 40,40 45,65" />
+      <circle cx="60" cy="60" r="3" fill="currentColor" />
+    </svg>
+    <svg class="absolute bottom-0 right-0 w-44 h-44 opacity-15 pointer-events-none text-[#D4AF37]" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1">
+      <path d="M100,100 C70,90 50,70 40,40 C60,50 80,70 100,100 Z" />
+      <path d="M100,75 C75,70 60,55 55,30" />
+      <circle cx="40" cy="40" r="3" fill="currentColor" />
+    </svg>
+
+    <div class="max-w-5xl mx-auto px-4 py-6 sm:py-8 text-center relative z-10">
+      <p class="text-xs sm:text-sm tracking-[0.28em] uppercase text-[#E6C762]/90 font-medium">
+        TIỆM ẢNH CHÚ HÙNG
+      </p>
+      <h1 class="font-serif-luxury text-4xl sm:text-5xl md:text-6xl font-bold tracking-[0.12em] text-[#F7E7CE] mt-1">
+        TACH
+      </h1>
+      <p class="font-serif-luxury text-base sm:text-xl tracking-[0.22em] uppercase text-[#E6C762] -mt-1">
+        WEDDING COVERAGE
+      </p>
+      <div class="flex items-center justify-center gap-3 my-2.5">
+        <span class="h-px w-12 sm:w-20 bg-[#D4AF37]/50"></span>
+        <span class="text-[#D4AF37] text-xs">✦</span>
+        <span class="h-px w-12 sm:w-20 bg-[#D4AF37]/50"></span>
+      </div>
+      <h2 class="text-xs sm:text-sm tracking-[0.2em] uppercase text-[#F5E6C8]/95 font-semibold">
+        BẢNG GIÁ DỊCH VỤ CƯỚI 2026
+      </h2>
+      <p class="text-[11px] sm:text-xs text-[#E6C762]/75 italic mt-1">
+        “Chụp bằng cả trái tim – Lưu giữ trọn khoảnh khắc”
+      </p>
+    </div>
+  </header>
+
+  <!-- Sticky Toolbar: Category Filters + Search + Price Edit Toggle -->
+  <div class="sticky top-0 z-30 bg-[#FBF8F3]/95 backdrop-blur-md border-b border-[#D8CBB8] shadow-sm">
+    <div class="max-w-5xl mx-auto px-3 sm:px-4 py-2.5 flex flex-col gap-2.5">
+      <!-- Top Row: Edit Mode Controls & Quick Info -->
+      <div class="flex flex-wrap items-center justify-between gap-2">
+        <!-- Search input -->
+        <div class="relative flex-1 min-w-[180px] max-w-xs">
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="Tìm gói chụp, quay, combo, makeup..."
+            class="w-full pl-8 pr-7 py-1.5 text-xs sm:text-sm rounded-full bg-white border border-[#D5C5B0] focus:outline-none focus:border-[#6B3E26] text-[#2D1E18]"
+          />
+          <svg class="w-4 h-4 text-[#8C583A] absolute left-2.5 top-1/2 -translate-y-1/2 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11A6 6 0 105 11a6 6 0 0012 0z" />
+          </svg>
+          <button
+            id="clearSearchBtn"
+            type="button"
+            title="Xóa tìm kiếm"
+            class="hidden absolute right-2 top-1/2 -translate-y-1/2 text-xs text-gray-400 hover:text-gray-700 px-1"
+          >✕</button>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="flex items-center gap-1.5 sm:gap-2 flex-wrap">
+          <button
+            id="openProcessModalBtn"
+            type="button"
+            class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium bg-[#EFE6D8] hover:bg-[#E4D6C3] text-[#4A0E17] border border-[#D5C3AA] transition"
+          >
+            <span class="w-4 h-4 rounded-full bg-[#6B3E26] text-white inline-flex items-center justify-center text-[10px] font-serif italic font-bold">i</span>
+            <span>Quy trình &amp; Lưu ý</span>
+          </button>
+
+          <button
+            id="toggleAiAdvisorBtn"
+            type="button"
+            class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-gradient-to-r from-[#4A0E17] to-[#6B3E26] hover:from-[#6B1824] hover:to-[#8C583A] text-[#F7E7CE] border border-[#D4AF37]/60 transition shadow-sm"
+          >
+            <span>✨ AI Tư vấn Budget</span>
+          </button>
+
+          <button
+            id="toggleEditModeBtn"
+            type="button"
+            class="admin-only-control inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-white hover:bg-[#F5EFE6] text-[#6B3E26] border border-[#6B3E26] transition shadow-sm"
+          >
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+            </svg>
+            <span id="editModeBtnLabel">Tuỳ chỉnh giá</span>
+          </button>
+
+          <button
+            id="addCustomPkgBtn"
+            type="button"
+            class="admin-only-control inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-semibold bg-[#4A0E17] hover:bg-[#6B1824] text-[#F5E6C8] transition shadow-sm"
+          >
+            <span>+ Thêm gói</span>
+          </button>
+
+          <button
+            id="openPublishModalBtn"
+            type="button"
+            class="admin-only-control inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold bg-emerald-800 hover:bg-emerald-900 text-white transition shadow-sm"
+            title="Xuất file Web đã khoá giá để gửi cho khách hàng"
+          >
+            <span>🌐 Xuất Web gửi khách</span>
+          </button>
+
+          <button
+            id="exitCustomerPreviewBtn"
+            type="button"
+            class="hidden items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold bg-amber-500 hover:bg-amber-600 text-[#2E070D] transition shadow-sm"
+          >
+            <span>👁 Đang xem như Khách — Bấm để mở Quản trị</span>
+          </button>
+
+          <button
+            id="resetPricesBtn"
+            type="button"
+            class="admin-only-control hidden items-center gap-1 px-2.5 py-1.5 rounded-full text-xs font-medium bg-amber-100 hover:bg-amber-200 text-amber-900 border border-amber-300 transition"
+            title="Khôi phục toàn bộ giá gốc theo file PDF 2026"
+          >
+            <span>↺ Giá gốc PDF</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Edit mode active banner -->
+      <div id="editModeBanner" class="hidden bg-amber-50 border border-amber-300/80 rounded-lg px-3 py-2 text-xs text-amber-900 flex flex-wrap items-center justify-between gap-2">
+        <div class="flex items-center gap-2">
+          <span class="inline-block w-2 h-2 rounded-full bg-amber-600 animate-pulse"></span>
+          <span><strong>Đang bật Chế độ chỉnh sửa giá:</strong> Nhập trực tiếp số tiền hoặc bấm <strong>-100k / +100k</strong> trên từng gói. Nhấn biểu tượng <strong>(i)</strong> để sửa nội dung chi tiết của gói.</span>
+        </div>
+        <div class="flex items-center gap-1.5 flex-wrap">
+          <button id="exportJsonBtn" type="button" class="text-[11px] font-semibold bg-white hover:bg-amber-100 text-amber-900 border border-amber-300 px-2.5 py-1 rounded-full transition">⬇ Lưu file cấu hình (.json)</button>
+          <button id="importJsonBtn" type="button" class="text-[11px] font-semibold bg-white hover:bg-amber-100 text-amber-900 border border-amber-300 px-2.5 py-1 rounded-full transition">⬆ Nạp file cấu hình</button>
+          <input id="importJsonInput" type="file" accept=".json,application/json" class="hidden" />
+          <span id="modifiedCountBadge" class="text-[11px] font-semibold bg-amber-200/80 px-2 py-0.5 rounded-full">Đã tự động lưu</span>
+        </div>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div id="categoryTabs" class="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar">
+        <!-- Populated dynamically by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content Container -->
+  <main class="max-w-5xl mx-auto px-3 sm:px-4 pt-5 space-y-6">
+
+    <!-- Quick Tip Callout -->
+    <div class="bg-[#F4ECE1] border border-[#DFD1BE] rounded-xl px-3.5 py-2.5 flex flex-wrap items-center justify-between gap-2 text-xs text-[#5A3A28]">
+      <div class="flex items-center gap-2">
+        <span class="w-5 h-5 rounded-full bg-[#4A0E17] text-[#F5E6C8] inline-flex items-center justify-center font-serif italic font-bold text-xs shrink-0">i</span>
+        <span>Nhấn vào nút <strong>(i)</strong> ở bất kỳ gói dịch vụ nào để xem chi tiết quyền lợi, số máy, thời gian có mặt và lưu ý phụ thu.</span>
+      </div>
+      <div class="flex items-center gap-3 text-[11px] font-medium text-[#6B3E26]">
+        <span>📍 Nội/Ngoại thành Biên Hoà</span>
+        <span>•</span>
+        <span>📸 Chỉnh sửa toàn bộ file</span>
+      </div>
+    </div>
+
+    <!-- AI Budget Advisor Interactive Section -->
+    <section id="aiAdvisorSection" class="bg-gradient-to-br from-[#3B0A11] via-[#4A0E17] to-[#5A2D18] text-[#F5E6C8] rounded-2xl border-2 border-[#D4AF37]/50 shadow-xl overflow-hidden">
+      <div class="px-4 sm:px-6 py-4 border-b border-[#D4AF37]/30 flex flex-wrap items-center justify-between gap-3">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-[#D4AF37]/20 border border-[#D4AF37] flex items-center justify-center text-lg shrink-0">
+            ✨
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <h3 class="font-serif-luxury text-xl sm:text-2xl font-bold text-white tracking-wide">
+                Trợ Lý AI Tư Vấn Gói Cưới Theo Ngân Sách
+              </h3>
+              <span class="text-[10px] uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-[#D4AF37] text-[#2E070D]">Thông minh</span>
+            </div>
+            <p class="text-xs text-[#E6C762]/85">
+              Nhập mức ngân sách dự kiến (Budget) hoặc câu hỏi của bạn — AI sẽ tự động phối gói tối ưu nhất từ bảng giá hiện tại.
+            </p>
+          </div>
+        </div>
+        <button
+          id="collapseAiPanelBtn"
+          type="button"
+          class="text-xs px-3 py-1.5 rounded-full bg-white/10 hover:bg-white/20 text-[#F7E7CE] border border-white/15 transition"
+        >
+          Thu gọn ▲
+        </button>
+      </div>
+
+      <div id="aiAdvisorBody" class="p-4 sm:p-6 space-y-5">
+        <!-- Row 1: Natural Language Input + Budget Controls -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-4">
+          <!-- Left: Budget Slider & Quick Presets -->
+          <div class="lg:col-span-6 bg-black/25 border border-[#D4AF37]/30 rounded-xl p-4 space-y-3">
+            <div class="flex items-center justify-between gap-2">
+              <label for="aiBudgetInput" class="text-xs font-semibold uppercase tracking-wider text-[#E6C762]">
+                1. Ngân sách dự kiến của bạn (VNĐ):
+              </label>
+              <div class="flex items-center gap-1.5">
+                <input
+                  id="aiBudgetInput"
+                  type="number"
+                  step="500000"
+                  min="500000"
+                  value="12000000"
+                  class="w-32 px-2.5 py-1 text-sm font-bold text-right rounded-lg bg-[#FBF8F3] text-[#4A0E17] border border-[#D4AF37] focus:outline-none"
+                />
+                <span class="text-xs font-bold text-[#E6C762]">Đ</span>
+              </div>
+            </div>
+
+            <input
+              id="aiBudgetSlider"
+              type="range"
+              min="2000000"
+              max="30000000"
+              step="500000"
+              value="12000000"
+              class="w-full accent-[#D4AF37] cursor-pointer"
+            />
+
+            <div class="flex items-center justify-between text-[11px] text-[#E6C762]/75">
+              <span>2 Triệu</span>
+              <span id="aiBudgetFormattedBadge" class="font-bold text-sm text-[#F7E7CE] bg-[#D4AF37]/25 px-2.5 py-0.5 rounded-full border border-[#D4AF37]/40">
+                Ngân sách: 12.000.000Đ
+              </span>
+              <span>30 Triệu+</span>
+            </div>
+
+            <!-- Preset Budget Pills -->
+            <div class="pt-1 flex flex-wrap gap-1.5">
+              <button type="button" data-budget="5000000" class="ai-budget-pill px-2.5 py-1 rounded-full text-[11px] font-medium bg-white/10 hover:bg-[#D4AF37] hover:text-[#2E070D] transition border border-white/15">~ 5 Triệu</button>
+              <button type="button" data-budget="9000000" class="ai-budget-pill px-2.5 py-1 rounded-full text-[11px] font-medium bg-white/10 hover:bg-[#D4AF37] hover:text-[#2E070D] transition border border-white/15">~ 9 Triệu</button>
+              <button type="button" data-budget="12000000" class="ai-budget-pill px-2.5 py-1 rounded-full text-[11px] font-semibold bg-[#D4AF37] text-[#2E070D] transition border border-[#D4AF37]">~ 12 Triệu</button>
+              <button type="button" data-budget="15000000" class="ai-budget-pill px-2.5 py-1 rounded-full text-[11px] font-medium bg-white/10 hover:bg-[#D4AF37] hover:text-[#2E070D] transition border border-white/15">~ 15 Triệu</button>
+              <button type="button" data-budget="18000000" class="ai-budget-pill px-2.5 py-1 rounded-full text-[11px] font-medium bg-white/10 hover:bg-[#D4AF37] hover:text-[#2E070D] transition border border-white/15">~ 18 Triệu</button>
+              <button type="button" data-budget="22000000" class="ai-budget-pill px-2.5 py-1 rounded-full text-[11px] font-medium bg-white/10 hover:bg-[#D4AF37] hover:text-[#2E070D] transition border border-white/15">Trọn gói 22Tr+</button>
+            </div>
+          </div>
+
+          <!-- Right: Priority Checkboxes & Natural Chat Box -->
+          <div class="lg:col-span-6 bg-black/25 border border-[#D4AF37]/30 rounded-xl p-4 flex flex-col justify-between space-y-3">
+            <div>
+              <span class="text-xs font-semibold uppercase tracking-wider text-[#E6C762] block mb-2">
+                2. Nhu cầu dịch vụ mong muốn:
+              </span>
+              <div class="flex flex-wrap gap-2">
+                <label class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white/10 hover:bg-white/15 border border-white/20 text-xs cursor-pointer">
+                  <input id="aiNeedChup" type="checkbox" checked class="accent-[#D4AF37] rounded" />
+                  <span>📸 Chụp ngày cưới</span>
+                </label>
+                <label class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white/10 hover:bg-white/15 border border-white/20 text-xs cursor-pointer">
+                  <input id="aiNeedQuay" type="checkbox" checked class="accent-[#D4AF37] rounded" />
+                  <span>🎥 Quay ngày cưới</span>
+                </label>
+                <label class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white/10 hover:bg-white/15 border border-white/20 text-xs cursor-pointer">
+                  <input id="aiNeedMakeup" type="checkbox" class="accent-[#D4AF37] rounded" />
+                  <span>💄 Makeup Cô Dâu</span>
+                </label>
+                <label class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white/10 hover:bg-white/15 border border-white/20 text-xs cursor-pointer">
+                  <input id="aiNeedLe" type="checkbox" class="accent-[#D4AF37] rounded" />
+                  <span>⛪ Lễ Nhà Thờ / Hằng Thuận</span>
+                </label>
+                <label class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white/10 hover:bg-white/15 border border-white/20 text-xs cursor-pointer">
+                  <input id="aiNeedMultiCam" type="checkbox" class="accent-[#D4AF37] rounded" />
+                  <span>👨‍👩‍👧‍👦 Hai họ đông (Nhiều máy)</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Chat / Natural Prompt -->
+            <div class="pt-1">
+              <label for="aiChatInput" class="text-[11px] text-[#E6C762]/90 block mb-1">
+                Hoặc nhập yêu cầu tự nhiên để AI phân tích (VD: <em>"Tầm 14 triệu cần chụp quay phóng sự + makeup tại nhà"</em>):
+              </label>
+              <div class="flex gap-2">
+                <input
+                  id="aiChatInput"
+                  type="text"
+                  placeholder="Nhập ngân sách & mong muốn của bạn..."
+                  class="flex-1 px-3 py-2 rounded-xl text-xs sm:text-sm bg-[#FBF8F3] text-[#2D1E18] placeholder-gray-500 border border-[#D4AF37] focus:outline-none"
+                />
+                <button
+                  id="aiAskBtn"
+                  type="button"
+                  class="px-4 py-2 rounded-xl text-xs font-bold bg-[#D4AF37] hover:bg-[#E6C762] text-[#2E070D] shrink-0 transition shadow"
+                >
+                  AI Gợi Ý
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AI Response Message Box -->
+        <div id="aiNarrativeBox" class="bg-[#FBF8F3]/10 border border-[#D4AF37]/40 rounded-xl px-4 py-3 text-xs sm:text-sm text-[#F7E7CE] leading-relaxed">
+          <!-- Populated by AI Advisor JS -->
+        </div>
+
+        <!-- AI Recommended Combinations Grid -->
+        <div id="aiRecommendationsGrid" class="grid grid-cols-1 md:grid-cols-3 gap-3.5">
+          <!-- Populated by AI Advisor JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Sections Container -->
+    <div id="pricingContainer" class="space-y-7">
+      <!-- Populated by JS -->
+    </div>
+
+    <!-- Subtle Studio Owner Footer (Allows unlocking Admin Edit Mode on Live Domain with PIN) -->
+    <footer class="pt-6 pb-4 text-center border-t border-[#E5D8C5] space-y-2">
+      <p class="text-xs text-[#6B3E26] font-medium">
+        TACH WEDDING COVERAGE – TIỆM ẢNH CHÚ HÙNG • BIÊN HOÀ, ĐỒNG NAI
+      </p>
+      <div class="flex items-center justify-center gap-3 text-[11px] text-[#8C583A]">
+        <span id="cloudStatusIndicator" class="inline-flex items-center gap-1">
+          <span class="w-2 h-2 rounded-full bg-emerald-600"></span>
+          <span>Bảng giá cập nhật 2026</span>
+        </span>
+        <span>•</span>
+        <button
+          id="footerAdminPinBtn"
+          type="button"
+          class="underline hover:text-[#4A0E17] font-semibold"
+        >
+          🔑 Quản trị viên (Mở khoá sửa giá)
+        </button>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- Sticky Bottom Quote Estimator Bar -->
+  <div class="fixed bottom-0 inset-x-0 z-30 bg-[#2E070D]/95 backdrop-blur-md text-[#F5E6C8] border-t border-[#D4AF37]/40 shadow-2xl">
+    <div class="max-w-5xl mx-auto px-3 sm:px-4 py-2.5 flex flex-wrap items-center justify-between gap-3">
+      <div class="flex items-center gap-3">
+        <button
+          id="openQuoteModalBtn"
+          type="button"
+          class="relative inline-flex items-center justify-center w-10 h-10 rounded-xl bg-[#6B1824] border border-[#D4AF37]/50 hover:bg-[#7D202E] transition"
+          title="Xem chi tiết báo giá đã chọn"
+        >
+          <svg class="w-5 h-5 text-[#E6C762]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+          </svg>
+          <span id="selectedCountBadge" class="absolute -top-1.5 -right-1.5 bg-[#D4AF37] text-[#2E070D] text-[11px] font-bold w-5 h-5 rounded-full inline-flex items-center justify-center">0</span>
+        </button>
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="text-xs text-[#E6C762]/80">Tạm tính báo giá:</span>
+            <span id="totalQuotePrice" class="text-base sm:text-lg font-bold text-[#F7E7CE]">0Đ</span>
+          </div>
+          <p id="selectedSummaryText" class="text-[11px] text-[#E6C762]/70 truncate max-w-[210px] sm:max-w-md">
+            Chưa chọn gói nào — Bấm "Chọn" trên các gói để tính tổng chi phí
+          </p>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <button
+          id="clearQuoteBtn"
+          type="button"
+          class="hidden px-2.5 py-1.5 rounded-lg text-xs text-[#E6C762]/80 hover:text-white hover:bg-white/10 transition"
+        >
+          Xoá chọn
+        </button>
+        <button
+          id="viewQuoteBtn"
+          type="button"
+          class="px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-[#D4AF37] hover:bg-[#E6C762] text-[#2E070D] transition shadow"
+        >
+          Xem &amp; Sao chép báo giá
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 1: Package Details & Single-Item Editor when clicking (i) -->
+  <div id="infoModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/60 backdrop-blur-xs p-3 sm:p-4">
+    <div class="bg-[#FBF8F3] border-2 border-[#6B3E26] rounded-2xl max-w-lg w-full overflow-hidden shadow-2xl animate-fadeIn">
+      <!-- Modal Header -->
+      <div class="bg-burgundy-gradient text-[#F5E6C8] px-5 py-4 flex items-start justify-between gap-3 border-b border-[#D4AF37]/40">
+        <div>
+          <span id="modalCategoryBadge" class="inline-block text-[10px] uppercase tracking-widest px-2.5 py-0.5 rounded-full bg-[#D4AF37]/20 text-[#E6C762] border border-[#D4AF37]/40 mb-1">
+            Danh mục
+          </span>
+          <h3 id="modalTitle" class="font-serif-luxury text-2xl font-bold text-white leading-tight">
+            Tên Gói Dịch Vụ
+          </h3>
+        </div>
+        <button
+          id="closeInfoModalBtn"
+          type="button"
+          class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 text-white inline-flex items-center justify-center text-sm transition shrink-0"
+        >✕</button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="p-5 space-y-4 max-h-[75vh] overflow-y-auto">
+        <!-- Price & Quick Edit Box -->
+        <div class="bg-[#F3EAE0] border border-[#D8C7B2] rounded-xl p-3.5 flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <span class="text-xs text-[#6B3E26] block">Đơn giá hiện tại:</span>
+            <div class="flex items-baseline gap-2">
+              <span id="modalPriceDisplay" class="text-2xl font-bold text-[#4A0E17]">0Đ</span>
+              <span id="modalOriginalPriceHint" class="text-xs text-gray-500 line-through hidden"></span>
+            </div>
+          </div>
+
+          <!-- Direct Price Input inside (i) Modal -->
+          <div id="modalQuickEditPriceControls" class="admin-only-control flex items-center gap-1.5">
+            <button
+              id="modalMinusPriceBtn"
+              type="button"
+              class="px-2 py-1 rounded-lg bg-white border border-[#C8B69E] text-xs font-semibold text-[#6B3E26] hover:bg-[#EFE6D8]"
+              title="Giảm 100.000Đ"
+            >-100k</button>
+            <input
+              id="modalPriceInput"
+              type="number"
+              step="50000"
+              min="0"
+              class="w-28 px-2.5 py-1 text-sm font-bold text-right rounded-lg bg-white border border-[#6B3E26] text-[#4A0E17] focus:outline-none"
+              title="Nhập giá mới (VNĐ)"
+            />
+            <button
+              id="modalPlusPriceBtn"
+              type="button"
+              class="px-2 py-1 rounded-lg bg-white border border-[#C8B69E] text-xs font-semibold text-[#6B3E26] hover:bg-[#EFE6D8]"
+              title="Tăng 100.000Đ"
+            >+100k</button>
+          </div>
+        </div>
+
+        <!-- View Mode Details -->
+        <div id="modalViewSection" class="space-y-3.5">
+          <div>
+            <h4 class="text-xs font-bold uppercase tracking-wider text-[#6B3E26] mb-2">
+              Chi tiết quyền lợi &amp; hạng mục trong gói
+            </h4>
+            <ul id="modalBulletsList" class="space-y-2 text-sm text-[#2D1E18]">
+              <!-- Bullets injected by JS -->
+            </ul>
+          </div>
+
+          <!-- Category Context Box -->
+          <div class="bg-white border border-[#E5D9C8] rounded-xl p-3.5 text-xs text-[#5A3A28] space-y-1.5">
+            <div class="font-bold text-[#4A0E17] flex items-center gap-1.5">
+              <span>📌</span>
+              <span id="modalNoteTitle">Lưu ý áp dụng cho gói</span>
+            </div>
+            <ul id="modalNotesList" class="list-disc list-inside space-y-1 text-[#5A3A28]/90">
+              <!-- Notes injected by JS -->
+            </ul>
+          </div>
+        </div>
+
+        <!-- Edit Details Section (Toggled inside Modal) -->
+        <div id="modalEditDetailsSection" class="hidden space-y-3 pt-2 border-t border-[#DFD1BE]">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold uppercase tracking-wider text-[#4A0E17]">Chỉnh sửa nội dung gói</span>
+            <span class="text-[11px] text-gray-500">Mỗi dòng là 1 ý chi tiết</span>
+          </div>
+          <div>
+            <label class="block text-xs font-medium text-[#6B3E26] mb-1" for="modalEditNameInput">Tên gói dịch vụ</label>
+            <input id="modalEditNameInput" type="text" class="w-full px-3 py-1.5 text-sm rounded-lg bg-white border border-[#C8B69E]" />
+          </div>
+          <div>
+            <label class="block text-xs font-medium text-[#6B3E26] mb-1" for="modalEditSummaryInput">Tóm tắt ngắn (hiển thị ngoài thẻ)</label>
+            <input id="modalEditSummaryInput" type="text" class="w-full px-3 py-1.5 text-sm rounded-lg bg-white border border-[#C8B69E]" />
+          </div>
+          <div>
+            <label class="block text-xs font-medium text-[#6B3E26] mb-1" for="modalEditBulletsTextarea">Chi tiết quyền lợi (mỗi dòng 1 mục)</label>
+            <textarea id="modalEditBulletsTextarea" rows="4" class="w-full px-3 py-1.5 text-sm rounded-lg bg-white border border-[#C8B69E]"></textarea>
+          </div>
+          <div class="flex items-center justify-between gap-2 pt-1">
+            <button
+              id="deleteModalPkgBtn"
+              type="button"
+              class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-red-100 text-red-800 hover:bg-red-200 border border-red-300 transition"
+            >🗑 Xoá gói dịch vụ này</button>
+            <button
+              id="saveModalDetailsBtn"
+              type="button"
+              class="px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-[#4A0E17] text-[#F5E6C8] hover:bg-[#6B1824]"
+            >Lưu nội dung</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="bg-[#F3EAE0] px-5 py-3 border-t border-[#D8C7B2] flex flex-wrap items-center justify-between gap-2">
+        <button
+          id="toggleModalEditDetailsBtn"
+          type="button"
+          class="admin-only-control text-xs font-medium text-[#6B3E26] hover:text-[#4A0E17] underline"
+        >
+          ✎ Sửa chữ / quyền lợi gói này
+        </button>
+
+        <div class="flex items-center gap-2">
+          <button
+            id="modalSelectPkgBtn"
+            type="button"
+            class="px-4 py-2 rounded-xl text-xs font-semibold bg-[#4A0E17] hover:bg-[#6B1824] text-[#F5E6C8] transition shadow"
+          >
+            + Chọn vào báo giá
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 2: Quy Trình Đặt Lịch & Lưu Ý Chung (Pages 2 & 8 of PDF) -->
+  <div id="processModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/60 backdrop-blur-xs p-3 sm:p-4">
+    <div class="bg-[#FBF8F3] border-2 border-[#6B3E26] rounded-2xl max-w-2xl w-full overflow-hidden shadow-2xl">
+      <div class="bg-burgundy-gradient text-[#F5E6C8] px-5 py-4 flex items-center justify-between border-b border-[#D4AF37]/40">
+        <div>
+          <p class="text-[11px] uppercase tracking-widest text-[#E6C762]">TACH WEDDING COVERAGE - TIỆM ẢNH CHÚ HÙNG</p>
+          <h3 class="font-serif-luxury text-2xl font-bold text-white">Quy Trình Đặt Lịch &amp; Phong Cách Phục Vụ</h3>
+        </div>
+        <button id="closeProcessModalBtn" type="button" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 text-white inline-flex items-center justify-center text-sm">✕</button>
+      </div>
+
+      <div class="p-5 space-y-5 max-h-[78vh] overflow-y-auto text-sm">
+        <!-- 4 Steps from Page 8 -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-[#6B3E26] mb-3">Quy trình đặt lịch (Đơn giản - Rõ ràng - Thuận tiện)</h4>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div class="bg-[#F3EAE0] border border-[#DFD1BE] rounded-xl p-3 flex gap-3">
+              <span class="w-9 h-9 rounded-lg bg-[#5A2D18] text-white font-bold text-sm inline-flex items-center justify-center shrink-0">01</span>
+              <div>
+                <div class="font-bold text-[#4A0E17]">Tư vấn nhu cầu</div>
+                <p class="text-xs text-[#5A3A28] mt-0.5">Trao đổi ngày cưới, địa điểm, số lượng lễ - tiệc và phong cách mong muốn.</p>
+              </div>
+            </div>
+            <div class="bg-[#F3EAE0] border border-[#DFD1BE] rounded-xl p-3 flex gap-3">
+              <span class="w-9 h-9 rounded-lg bg-[#5A2D18] text-white font-bold text-sm inline-flex items-center justify-center shrink-0">02</span>
+              <div>
+                <div class="font-bold text-[#4A0E17]">Chọn gói phù hợp</div>
+                <p class="text-xs text-[#5A3A28] mt-0.5">Lựa chọn số máy chụp, máy quay hoặc combo dựa trên quy mô hai bên gia đình.</p>
+              </div>
+            </div>
+            <div class="bg-[#F3EAE0] border border-[#DFD1BE] rounded-xl p-3 flex gap-3">
+              <span class="w-9 h-9 rounded-lg bg-[#5A2D18] text-white font-bold text-sm inline-flex items-center justify-center shrink-0">03</span>
+              <div>
+                <div class="font-bold text-[#4A0E17]">Xác nhận lịch</div>
+                <p class="text-xs text-[#5A3A28] mt-0.5">Chốt lịch bằng khoản cọc theo thỏa thuận và cung cấp timeline ngày cưới.</p>
+              </div>
+            </div>
+            <div class="bg-[#F3EAE0] border border-[#DFD1BE] rounded-xl p-3 flex gap-3">
+              <span class="w-9 h-9 rounded-lg bg-[#5A2D18] text-white font-bold text-sm inline-flex items-center justify-center shrink-0">04</span>
+              <div>
+                <div class="font-bold text-[#4A0E17]">Thực hiện &amp; bàn giao</div>
+                <p class="text-xs text-[#5A3A28] mt-0.5">Ê-kíp có mặt đúng giờ, tác nghiệp theo timeline và bàn giao sản phẩm theo thỏa thuận.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- General Notes from Pages 3, 4, 5, 6 -->
+        <div class="bg-white border border-[#DFD1BE] rounded-xl p-4 space-y-2">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-[#4A0E17]">Lưu ý chung cho các gói dịch vụ</h4>
+          <ul class="list-disc list-inside text-xs sm:text-sm text-[#3D281E] space-y-1.5">
+            <li>Tất cả các gói chụp không giới hạn file và do <strong>Chú Hùng</strong> chỉnh sửa đẹp toàn bộ.</li>
+            <li>Phụ thu chi phí di chuyển nếu ở ngoại thành <strong>Biên Hoà</strong> tuỳ gần xa.</li>
+            <li>Phát sinh lễ - tiệc trái buổi phụ thu <strong>50%</strong> của ngày hôm đó.</li>
+            <li><strong>1 buổi</strong> được tính từ đầu giờ sáng đến hết tiệc trưa hoặc đầu giờ chiều đến hết tiệc tối.</li>
+          </ul>
+        </div>
+
+        <!-- Service Style Description from Page 8 -->
+        <div class="bg-[#EFE6D8] border border-[#D8C7B2] rounded-xl p-4">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-[#4A0E17] mb-1.5">Mô tả ngắn về phong cách phục vụ</h4>
+          <p class="text-xs sm:text-sm text-[#3D281E] leading-relaxed">
+            TACH Wedding Coverage hướng đến cách làm việc chỉn chu, thân thiện và linh hoạt. Ê-kíp ưu tiên những khoảnh khắc thật, đồng thời vẫn bảo đảm đầy đủ các ảnh nghi thức, ảnh gia đình và các phần quan trọng trong ngày cưới. Mỗi sản phẩm được chỉnh sửa đồng bộ để giữ màu sắc tự nhiên, cảm xúc và dấu ấn riêng của từng cặp đôi.
+          </p>
+          <p class="text-center font-serif-luxury text-lg font-bold text-[#4A0E17] mt-3">
+            Cảm ơn bạn đã tin tưởng Tiệm Ảnh Chú Hùng ♥
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 3: Quote Summary & Surcharge Calculator -->
+  <div id="quoteModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/60 backdrop-blur-xs p-3 sm:p-4">
+    <div class="bg-[#FBF8F3] border-2 border-[#6B3E26] rounded-2xl max-w-lg w-full overflow-hidden shadow-2xl">
+      <div class="bg-burgundy-gradient text-[#F5E6C8] px-5 py-4 flex items-center justify-between border-b border-[#D4AF37]/40">
+        <div>
+          <p class="text-[11px] uppercase tracking-widest text-[#E6C762]">TACH WEDDING COVERAGE 2026</p>
+          <h3 class="font-serif-luxury text-2xl font-bold text-white">Báo Giá Dịch Vụ Đã Chọn</h3>
+        </div>
+        <button id="closeQuoteModalBtn" type="button" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 text-white inline-flex items-center justify-center text-sm">✕</button>
+      </div>
+
+      <div class="p-5 space-y-4 max-h-[75vh] overflow-y-auto">
+        <div id="quoteItemsContainer" class="space-y-2.5">
+          <!-- Selected items rendered here -->
+        </div>
+
+        <!-- Optional Surcharge Toggle (from PDF Note: Phát sinh lễ - tiệc trái buổi phụ thu 50%) -->
+        <div class="bg-[#F3EAE0] border border-[#D8C7B2] rounded-xl p-3.5 space-y-2.5">
+          <label class="flex items-start gap-2.5 cursor-pointer text-xs sm:text-sm text-[#2D1E18]">
+            <input id="traiBuoiCheckbox" type="checkbox" class="mt-0.5 rounded border-[#6B3E26] text-[#4A0E17] focus:ring-0" />
+            <span>
+              <strong>Phát sinh lễ - tiệc trái buổi (+50%)</strong>
+              <span class="block text-[11px] text-[#6B3E26]">Áp dụng cho các gói Chụp / Quay / Combo ngày cưới theo quy định trong bảng giá.</span>
+            </span>
+          </label>
+          <div class="flex items-center justify-between gap-2 pt-2 border-t border-[#DFD1BE]">
+            <label for="extraTravelInput" class="text-xs font-medium text-[#5A3A28]">Phụ thu ngoại thành Biên Hoà (nếu có):</label>
+            <input
+              id="extraTravelInput"
+              type="number"
+              step="100000"
+              min="0"
+              value="0"
+              class="w-28 px-2.5 py-1 text-xs font-bold text-right rounded-lg bg-white border border-[#C8B69E]"
+            />
+          </div>
+        </div>
+
+        <!-- Total Box -->
+        <div class="bg-[#4A0E17] text-[#F5E6C8] rounded-xl p-4 flex items-center justify-between">
+          <div>
+            <span class="text-xs uppercase tracking-wider text-[#E6C762] block">Tổng cộng tạm tính</span>
+            <span class="text-[11px] text-[#F5E6C8]/75">Chưa bao gồm phát sinh ngoài thoả thuận</span>
+          </div>
+          <span id="modalQuoteGrandTotal" class="text-2xl font-bold text-[#E6C762]">0Đ</span>
+        </div>
+      </div>
+
+      <div class="bg-[#F3EAE0] px-5 py-3 border-t border-[#D8C7B2] flex items-center justify-between gap-2">
+        <button
+          id="copyFullPriceTableBtn"
+          type="button"
+          class="px-3 py-2 rounded-xl text-xs font-medium bg-white hover:bg-[#EFE6D8] text-[#6B3E26] border border-[#C8B69E] transition"
+        >
+          📋 Sao chép toàn bộ bảng giá
+        </button>
+        <button
+          id="copyQuoteTextBtn"
+          type="button"
+          class="px-4 py-2 rounded-xl text-xs font-semibold bg-[#4A0E17] hover:bg-[#6B1824] text-[#F5E6C8] transition shadow"
+        >
+          Sao chép báo giá gửi khách
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 4: Add Custom Package Modal -->
+  <div id="addPkgModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/60 backdrop-blur-xs p-3 sm:p-4">
+    <div class="bg-[#FBF8F3] border-2 border-[#6B3E26] rounded-2xl max-w-md w-full overflow-hidden shadow-2xl">
+      <div class="bg-burgundy-gradient text-[#F5E6C8] px-5 py-3.5 flex items-center justify-between">
+        <h3 class="font-serif-luxury text-xl font-bold text-white">Thêm Gói Dịch Vụ Mới</h3>
+        <button id="closeAddPkgModalBtn" type="button" class="w-7 h-7 rounded-full bg-white/10 text-white text-xs">✕</button>
+      </div>
+      <div class="p-5 space-y-3 text-xs sm:text-sm max-h-[80vh] overflow-y-auto">
+        <div>
+          <label class="block font-medium text-[#6B3E26] mb-1" for="newPkgCatSelect">Chọn danh mục (hoặc tạo nhóm dịch vụ mới)</label>
+          <select id="newPkgCatSelect" class="w-full px-3 py-2 rounded-lg bg-white border border-[#C8B69E]">
+            <option value="chup">1. Chụp Ngày Cưới</option>
+            <option value="quay">2. Quay Ngày Cưới</option>
+            <option value="combo">3. Combo Ngày Cưới</option>
+            <option value="lecung">4. Dịch Vụ Lễ Cưới</option>
+            <option value="makeup">5. Dịch Vụ Makeup</option>
+            <option value="__new__">+ Tạo danh mục dịch vụ mới (VD: Pre-wedding, Áo cưới...)</option>
+          </select>
+        </div>
+
+        <!-- New Category Fields (Shown when __new__ is selected) -->
+        <div id="newCategoryFieldsBox" class="hidden bg-[#F3EAE0] border border-[#D8C7B2] rounded-xl p-3 space-y-2.5">
+          <div>
+            <label class="block text-xs font-semibold text-[#4A0E17] mb-1" for="newCatNameInput">Tên danh mục dịch vụ mới</label>
+            <input id="newCatNameInput" type="text" placeholder="VD: Chụp Ảnh Cưới Pre-Wedding / Ngoại Cảnh" class="w-full px-2.5 py-1.5 rounded-lg bg-white border border-[#C8B69E] text-xs" />
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-[#4A0E17] mb-1" for="newCatDescInput">Mô tả ngắn danh mục</label>
+            <input id="newCatDescInput" type="text" placeholder="VD: Trọn gói chụp album ngoại cảnh & phim trường" class="w-full px-2.5 py-1.5 rounded-lg bg-white border border-[#C8B69E] text-xs" />
+          </div>
+        </div>
+
+        <div>
+          <label class="block font-medium text-[#6B3E26] mb-1" for="newPkgNameInput">Tên gói dịch vụ mới</label>
+          <input id="newPkgNameInput" type="text" placeholder="VD: Gói Pre-Wedding Phim Trường Hàn Quốc" class="w-full px-3 py-1.5 rounded-lg bg-white border border-[#C8B69E]" />
+        </div>
+
+        <div class="grid grid-cols-2 gap-2.5">
+          <div>
+            <label class="block font-medium text-[#6B3E26] mb-1" for="newPkgPriceInput">Giá tiền (VNĐ)</label>
+            <input id="newPkgPriceInput" type="number" step="100000" value="5000000" class="w-full px-3 py-1.5 rounded-lg bg-white border border-[#C8B69E] font-bold text-[#4A0E17]" />
+          </div>
+          <div>
+            <label class="block font-medium text-[#6B3E26] mb-1" for="newPkgBadgeInput">Nhãn phụ (Badge)</label>
+            <input id="newPkgBadgeInput" type="text" placeholder="VD: Mới 2026 / Trọn gói" value="Mới" class="w-full px-3 py-1.5 rounded-lg bg-white border border-[#C8B69E]" />
+          </div>
+        </div>
+
+        <label class="inline-flex items-center gap-2 cursor-pointer text-xs font-medium text-[#4A0E17]">
+          <input id="newPkgBestSellerInput" type="checkbox" class="rounded border-[#6B3E26] accent-[#4A0E17]" />
+          <span>👍 Đánh dấu là gói <strong>Best Seller</strong></span>
+        </label>
+
+        <div>
+          <label class="block font-medium text-[#6B3E26] mb-1" for="newPkgSummaryInput">Tóm tắt ngắn (1 dòng hiển thị ngoài bảng)</label>
+          <input id="newPkgSummaryInput" type="text" placeholder="VD: 1 máy chụp + 1 máy quay, tặng 50 ảnh ép lụa" class="w-full px-3 py-1.5 rounded-lg bg-white border border-[#C8B69E]" />
+        </div>
+        <div>
+          <label class="block font-medium text-[#6B3E26] mb-1" for="newPkgBulletsInput">Chi tiết quyền lợi khi khách bấm nút (i) (mỗi dòng 1 ý)</label>
+          <textarea id="newPkgBulletsInput" rows="3" placeholder="Có mặt trước 2 tiếng&#10;Tặng toàn bộ file gốc & chỉnh sửa cao cấp" class="w-full px-3 py-1.5 rounded-lg bg-white border border-[#C8B69E]"></textarea>
+        </div>
+        <div class="pt-2 flex justify-end gap-2">
+          <button id="cancelAddPkgBtn" type="button" class="px-3 py-1.5 rounded-lg border border-[#C8B69E] text-[#6B3E26]">Huỷ</button>
+          <button id="confirmAddPkgBtn" type="button" class="px-4 py-1.5 rounded-lg bg-[#4A0E17] text-[#F5E6C8] font-semibold">Lưu gói mới</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 5: Publish & Export Customer Web (.html) -->
+  <div id="publishModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/60 backdrop-blur-xs p-3 sm:p-4">
+    <div class="bg-[#FBF8F3] border-2 border-[#6B3E26] rounded-2xl max-w-lg w-full overflow-hidden shadow-2xl">
+      <div class="bg-burgundy-gradient text-[#F5E6C8] px-5 py-4 flex items-center justify-between border-b border-[#D4AF37]/40">
+        <div>
+          <p class="text-[11px] uppercase tracking-widest text-[#E6C762]">XUẤT BẢN BẢNG GIÁ CHO KHÁCH HÀNG</p>
+          <h3 class="font-serif-luxury text-2xl font-bold text-white">Tạo File Web Đã Khoá Giá &amp; Lấy Link</h3>
+        </div>
+        <button id="closePublishModalBtn" type="button" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 text-white inline-flex items-center justify-center text-sm">✕</button>
+      </div>
+
+      <div class="p-5 space-y-4 max-h-[78vh] overflow-y-auto text-xs sm:text-sm text-[#2D1E18]">
+        <div class="bg-emerald-50 border border-emerald-300 rounded-xl p-3.5 space-y-1.5 text-emerald-950">
+          <div class="font-bold flex items-center gap-1.5 text-sm">
+            <span>🔒</span>
+            <span>File xuất cho khách có gì đặc biệt?</span>
+          </div>
+          <ul class="list-disc list-inside text-xs space-y-1 text-emerald-900">
+            <li><strong>Lưu cứng toàn bộ giá mới &amp; gói dịch vụ mới</strong> bạn vừa chỉnh sửa vào thẳng trang web.</li>
+            <li><strong>Tự động ẩn tất cả nút sửa giá / thêm xoá gói</strong> để khách hàng chỉ xem bảng giá, bấm <strong>(i)</strong>, dùng <strong>AI Tư vấn Budget</strong> và <strong>Chọn gói báo giá</strong>.</li>
+          </ul>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+          <button
+            id="downloadCustomerHtmlBtn"
+            type="button"
+            class="w-full py-3 px-4 rounded-xl font-bold text-xs sm:text-sm bg-[#4A0E17] hover:bg-[#6B1824] text-[#F5E6C8] shadow-md flex items-center justify-center gap-2 transition"
+          >
+            <span>⬇ Tải file index.html gửi khách</span>
+          </button>
+
+          <button
+            id="previewCustomerModeBtn"
+            type="button"
+            class="w-full py-3 px-4 rounded-xl font-semibold text-xs sm:text-sm bg-white hover:bg-[#F3EAE0] text-[#4A0E17] border border-[#6B3E26] flex items-center justify-center gap-2 transition"
+          >
+            <span>👁 Xem thử giao diện Khách</span>
+          </button>
+        </div>
+
+        <!-- Cloud Auto-Sync Configuration Box -->
+        <div class="bg-white border-2 border-[#D4AF37] rounded-xl p-4 space-y-3">
+          <div class="flex items-center justify-between gap-2">
+            <h4 class="font-bold text-xs sm:text-sm uppercase tracking-wider text-[#4A0E17] flex items-center gap-1.5">
+              <span>☁️</span>
+              <span>Cấu hình Tự Động Cập Nhật Giá Từ Xa (Live Cloud Sync)</span>
+            </h4>
+            <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-100 text-amber-900">Tự động 100%</span>
+          </div>
+          <p class="text-xs text-[#5A3A28] leading-relaxed">
+            Để sửa giá trên điện thoại/máy tính của bạn mà <strong>khách vào web thấy giá mới ngay lập tức (không cần up lại file)</strong>, hãy dán đường dẫn <strong>Firebase Realtime Database</strong> (miễn phí của Google, đuôi <code>.firebaseio.com/tach.json</code> hoặc <code>.firebasedatabase.app/tach.json</code>) và đặt mã PIN quản trị của bạn:
+          </p>
+
+          <div class="space-y-2.5">
+            <div>
+              <label for="cloudSyncUrlInput" class="block text-xs font-semibold text-[#4A0E17] mb-1">
+                Đường dẫn Cloud Database (HTTPS JSON URL):
+              </label>
+              <input
+                id="cloudSyncUrlInput"
+                type="url"
+                placeholder="VD: https://tach-wedding-default-rtdb.asia-southeast1.firebasedatabase.app/banggia.json"
+                class="w-full px-3 py-1.5 rounded-lg bg-[#FBF8F3] border border-[#C8B69E] text-xs text-[#2D1E18]"
+              />
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+              <div>
+                <label for="adminPinConfigInput" class="block text-xs font-semibold text-[#4A0E17] mb-1">
+                  Mã PIN mở khoá sửa giá trên Web:
+                </label>
+                <input
+                  id="adminPinConfigInput"
+                  type="text"
+                  value="2026"
+                  placeholder="VD: 2026"
+                  class="w-full px-3 py-1.5 rounded-lg bg-[#FBF8F3] border border-[#C8B69E] text-xs font-bold text-[#4A0E17]"
+                />
+              </div>
+              <div class="flex items-end">
+                <button
+                  id="saveCloudSyncBtn"
+                  type="button"
+                  class="w-full py-2 px-3 rounded-lg bg-[#6B3E26] hover:bg-[#4A0E17] text-white font-semibold text-xs transition"
+                >
+                  ☁️ Lưu &amp; Đồng bộ lên Cloud ngay
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-[#F3EAE0] border border-[#D8C7B2] rounded-xl p-4 space-y-2">
+          <h4 class="font-bold text-xs uppercase tracking-wider text-[#4A0E17]">Cách gắn Tên Miền Riêng &amp; Sửa giá trực tiếp trên Web:</h4>
+          <ol class="list-decimal list-inside text-xs space-y-1.5 text-[#3D281E]">
+            <li>Sau khi điền Cloud URL (nếu dùng) và bấm <strong>"⬇ Tải file index.html gửi khách"</strong>, bạn kéo file vào <strong>app.netlify.com/drop</strong>.</li>
+            <li>Trong mục <strong>Domain Management</strong> của Netlify, bạn đổi tên miễn phí thành <code>tachwedding.netlify.app</code> hoặc trỏ tên miền riêng (như <code>banggia.tachwedding.com</code> / <code>tachwedding.vn</code>) vào hoàn toàn miễn phí SSL.</li>
+            <li>Mỗi khi cần đổi giá: bạn mở đúng trang web đó, kéo xuống cuối trang bấm <strong>"🔑 Quản trị viên (Mở khoá sửa giá)"</strong>, nhập mã PIN là sửa giá trực tiếp trên web — khách vào sau đó sẽ tự động thấy giá mới!</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 6: Admin PIN Unlock Modal -->
+  <div id="adminPinModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/60 backdrop-blur-xs p-3 sm:p-4">
+    <div class="bg-[#FBF8F3] border-2 border-[#6B3E26] rounded-2xl max-w-sm w-full overflow-hidden shadow-2xl">
+      <div class="bg-burgundy-gradient text-[#F5E6C8] px-5 py-3.5 flex items-center justify-between">
+        <h3 class="font-serif-luxury text-xl font-bold text-white">🔑 Mở Khoá Quản Trị Viên</h3>
+        <button id="closeAdminPinModalBtn" type="button" class="w-7 h-7 rounded-full bg-white/10 text-white text-xs">✕</button>
+      </div>
+      <div class="p-5 space-y-3 text-xs sm:text-sm">
+        <p class="text-[#5A3A28]">
+          Nhập mã PIN quản trị của <strong>Tiệm Ảnh Chú Hùng</strong> để bật thanh công cụ sửa giá và thêm gói dịch vụ:
+        </p>
+        <input
+          id="enterPinInput"
+          type="password"
+          placeholder="Nhập mã PIN (Mặc định: 2026)"
+          class="w-full px-3 py-2 rounded-xl bg-white border border-[#6B3E26] text-center font-bold text-base tracking-widest text-[#4A0E17] focus:outline-none"
+        />
+        <div class="flex justify-end gap-2 pt-1">
+          <button id="cancelPinBtn" type="button" class="px-3 py-1.5 rounded-lg border border-[#C8B69E] text-[#6B3E26]">Huỷ</button>
+          <button id="confirmPinBtn" type="button" class="px-4 py-1.5 rounded-lg bg-[#4A0E17] text-[#F5E6C8] font-semibold">Mở khoá</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toastBox" class="fixed top-4 right-4 z-50 hidden bg-[#2E070D] text-[#F5E6C8] border border-[#D4AF37] px-4 py-2.5 rounded-xl shadow-xl text-xs font-medium items-center gap-2">
+    <span class="text-[#D4AF37]">✓</span>
+    <span id="toastMessage">Đã lưu thay đổi</span>
+  </div>
+
+  <script>
+    // =========================================================================
+    // 1. GROUNDED DATA FROM "Bảng Giá TACHwedding 2026.pdf"
+    // =========================================================================
+    const CATEGORIES = [
+      {
+        id: 'all',
+        num: '',
+        name: 'Tất cả dịch vụ',
+        shortName: 'Tất cả',
+        desc: 'Toàn bộ các gói Chụp, Quay, Combo, Lễ Cưới & Makeup 2026'
+      },
+      {
+        id: 'chup',
+        num: '01',
+        name: 'Dịch Vụ Chụp Ngày Cưới (1 Ngày)',
+        shortName: 'Chụp Ngày Cưới',
+        desc: 'Ghi lại đầy đủ các nghi thức, ảnh gia đình, bạn bè và những khoảnh khắc tự nhiên trong ngày vui. Có thể lựa chọn phong cách truyền thống hoặc phóng sự tùy nhu cầu.',
+        notes: [
+          'Tất cả các gói, chụp không giới hạn file và do Hùng chỉnh sửa đẹp toàn bộ',
+          'Phụ thu chi phí nếu ở ngoại thành Biên Hoà tuỳ gần xa',
+          'Phát sinh lễ - tiệc trái buổi phụ thu 50% của ngày hôm đó',
+          '1 buổi được tính từ đầu giờ sáng đến hết tiệc trưa hoặc đầu giờ chiều đến hết tiệc tối'
+        ]
+      },
+      {
+        id: 'quay',
+        num: '02',
+        name: 'Dịch Vụ Quay Ngày Cưới (1 Ngày)',
+        shortName: 'Quay Ngày Cưới',
+        desc: 'Lưu giữ không khí, lời chúc và cảm xúc bằng video hoàn thiện. Gói truyền thống ưu tiên thời lượng đầy đủ; gói phóng sự tập trung vào câu chuyện và cảm xúc.',
+        notes: [
+          'Tất cả các gói, chụp không giới hạn file và do Hùng chỉnh sửa đẹp toàn bộ',
+          'Phụ thu chi phí nếu ở ngoại thành Biên Hoà tuỳ gần xa',
+          'Phát sinh lễ - tiệc trái buổi phụ thu 50% của ngày hôm đó',
+          '1 buổi được tính từ đầu giờ sáng đến hết tiệc trưa hoặc đầu giờ chiều đến hết tiệc tối'
+        ]
+      },
+      {
+        id: 'combo',
+        num: '03',
+        name: 'Combo Ngày Cưới (1 Ngày)',
+        shortName: 'Combo Ngày Cưới',
+        desc: 'Kết hợp chụp và quay theo từng mức nhân sự, giúp hai bên gia đình được ghi nhận trọn vẹn hơn và tối ưu chi phí khi đặt chung dịch vụ.',
+        notes: [
+          'Tất cả các gói, chụp không giới hạn file và do Hùng chỉnh sửa đẹp toàn bộ',
+          'Phụ thu chi phí nếu ở ngoại thành Biên Hoà tuỳ gần xa',
+          'Phát sinh lễ - tiệc trái buổi phụ thu 50% của ngày hôm đó',
+          '1 buổi được tính từ đầu giờ sáng đến hết tiệc trưa hoặc đầu giờ chiều đến hết tiệc tối'
+        ]
+      },
+      {
+        id: 'lecung',
+        num: '04',
+        name: 'Dịch Vụ Lễ Cưới (Nhà Thờ & Hằng Thuận)',
+        shortName: 'Lễ Cưới',
+        desc: 'Phù hợp cho lễ nhà thờ, lễ Hằng Thuận hoặc các nghi thức riêng biệt. Hình ảnh và video được chỉnh sửa đồng bộ theo phong cách trang trọng, tự nhiên.',
+        notes: [
+          'Chỉnh sửa ảnh/clip, màu sắc, cắt ghép, mịn da, bối cảnh trang trọng',
+          'Lưu ý: Gói chưa bao gồm phí di chuyển xa nội thành Biên Hoà'
+        ]
+      },
+      {
+        id: 'makeup',
+        num: '05',
+        name: 'Dịch Vụ Makeup (Thu Lee Makeup)',
+        shortName: 'Makeup',
+        desc: 'Trang điểm cô dâu tại tiệm hoặc tại nhà cùng các gói makeup khách tiệc, bà sui và takecare. Hỗ trợ phụ kiện, lens mắt và hoàn thiện tổng thể chỉn chu cho ngày cưới.',
+        notes: [
+          'Ưu đãi cô dâu: Tặng Lens Mắt, Hỗ Trợ Phụ Kiện Cho Cô Dâu, Tặng Makeup Body Cho Cô Dâu',
+          'Thực hiện bởi Thu Lee Makeup'
+        ]
+      }
+    ];
+
+    const DEFAULT_PACKAGES = [
+      // 1. CHỤP NGÀY CƯỚI
+      {
+        id: 'chup-tt',
+        category: 'chup',
+        name: 'Chụp Truyền Thống',
+        badge: '1 Ngày',
+        bestSeller: false,
+        price: 3000000,
+        summary: '1 máy nhà trai (trước 1 tiếng) • Tặng 50 ảnh 13x18 ép lụa',
+        bullets: [
+          '1 máy chụp có mặt tại nhà trai (trước 1 tiếng)',
+          'Góc chụp chính diện có thể bắt thêm khoảnh khắc',
+          'Tặng 50 ảnh 13x18 ép lụa (không kèm album)',
+          'Chụp không giới hạn file, do Chú Hùng chỉnh sửa đẹp toàn bộ'
+        ]
+      },
+      {
+        id: 'chup-ps-1',
+        category: 'chup',
+        name: 'Chụp Phóng Sự 1 Máy',
+        badge: '1 Ngày',
+        bestSeller: false,
+        price: 4000000,
+        summary: '1 máy nhà gái (trước 2 tiếng) • Tặng 70 ảnh 13x18 ép lụa',
+        bullets: [
+          '1 máy chụp có mặt tại nhà gái (trước 2 tiếng)',
+          'Góc chụp chính diện, chụp mọi khoảnh khắc tự nhiên',
+          'Tặng 70 ảnh 13x18 ép lụa (không kèm album)',
+          'Chụp không giới hạn file, do Chú Hùng chỉnh sửa đẹp toàn bộ'
+        ]
+      },
+      {
+        id: 'chup-ps-2',
+        category: 'chup',
+        name: 'Chụp Phóng Sự 2 Máy',
+        badge: 'Kèm Album',
+        bestSeller: false,
+        price: 6500000,
+        summary: '2 máy (nhà gái & nhà trai trước 2 tiếng) • Tặng 100 ảnh 13x18 + Album',
+        bullets: [
+          '1 máy chụp có mặt tại nhà gái (trước 2 tiếng)',
+          '1 máy chụp có mặt tại nhà trai (trước 2 tiếng)',
+          'Góc chụp chính diện, chụp mọi khoảnh khắc hai bên gia đình',
+          'Tặng 100 ảnh 13x18 ép lụa (kèm album)'
+        ]
+      },
+
+      // 2. QUAY NGÀY CƯỚI
+      {
+        id: 'quay-tt',
+        category: 'quay',
+        name: 'Quay Truyền Thống',
+        badge: 'Clip > 30 phút',
+        bestSeller: false,
+        price: 4700000,
+        summary: '1 máy quay nhà trai (trước 1 tiếng) • Clip trên 30 phút • 1 đèn cao cấp',
+        bullets: [
+          '1 máy quay có mặt tại nhà trai (trước 1 tiếng)',
+          'Giao 1 clip hoàn thiện từ 30 phút trở lên',
+          'Trang bị 1 đèn chiếu sáng công suất cao'
+        ]
+      },
+      {
+        id: 'quay-ps-1',
+        category: 'quay',
+        name: 'Quay Phóng Sự 1 Máy',
+        badge: 'Clip 7-15 phút',
+        bestSeller: false,
+        price: 5000000,
+        summary: '1 máy quay nhà gái (trước 2 tiếng) • Clip 7-15 phút • 1 đèn cao cấp',
+        bullets: [
+          '1 máy quay có mặt tại nhà gái (trước 2 tiếng)',
+          'Giao 1 clip hoàn thiện từ 7 - 15 phút trở lên tuỳ tình tiết',
+          'Trang bị 1 đèn chiếu sáng công suất cao'
+        ]
+      },
+      {
+        id: 'quay-ps-2',
+        category: 'quay',
+        name: 'Quay Phóng Sự 2 Máy',
+        badge: '2 Máy + 2 Đèn',
+        bestSeller: false,
+        price: 9500000,
+        summary: '2 máy quay (nhà gái & nhà trai trước 2 tiếng) • Clip 7-15 phút • 2 đèn',
+        bullets: [
+          '1 máy quay có mặt tại nhà gái (trước 2 tiếng)',
+          '1 máy quay có mặt tại nhà trai (trước 2 tiếng)',
+          'Giao 1 clip hoàn thiện từ 7 - 15 phút trở lên tuỳ tình tiết',
+          'Trang bị 2 đèn chiếu sáng công suất cao'
+        ]
+      },
+
+      // 3. COMBO NGÀY CƯỚI
+      {
+        id: 'combo-01',
+        category: 'combo',
+        name: 'COMBO 01',
+        badge: '2 Chụp + 1 Quay TT',
+        bestSeller: false,
+        price: 10700000,
+        summary: 'Chụp 2 máy (1 PS + 1 TT) • Quay 1 máy Truyền thống (>30 phút)',
+        bullets: [
+          'Chụp 2 máy: 1 Phóng sự và 1 Truyền thống (TT xuất phát ở nhà trai - PS ở nhà gái)',
+          'Quay 1 máy Truyền thống (xuất phát từ nhà trai, giao clip trên 30 phút)'
+        ]
+      },
+      {
+        id: 'combo-02',
+        category: 'combo',
+        name: 'COMBO 02',
+        badge: '2 Chụp + 1 Quay PS',
+        bestSeller: true,
+        price: 11000000,
+        summary: 'Chụp 2 máy (1 PS + 1 TT) • Quay 1 máy Phóng sự (7-15 phút)',
+        bullets: [
+          'Gói Best Seller được nhiều cặp đôi lựa chọn nhất',
+          'Chụp 2 máy: 1 Phóng sự và 1 Truyền thống (TT xuất phát ở nhà trai - PS ở nhà gái)',
+          'Quay 1 máy Phóng sự (xuất phát từ nhà gái, giao clip từ 7-15 phút trở lên tuỳ tình tiết)'
+        ]
+      },
+      {
+        id: 'combo-03',
+        category: 'combo',
+        name: 'COMBO 03',
+        badge: '2 Chụp + 2 Quay PS',
+        bestSeller: false,
+        price: 15000000,
+        summary: 'Chụp 2 máy (1 PS + 1 TT) • Quay 2 máy Phóng sự (nhà gái & nhà trai)',
+        bullets: [
+          'Chụp 2 máy: 1 Phóng sự và 1 Truyền thống (TT xuất phát ở nhà trai - PS ở nhà gái)',
+          'Quay 2 máy Phóng sự (xuất phát 1 máy nhà gái và 1 máy nhà trai, giao clip từ 7-15 phút)'
+        ]
+      },
+      {
+        id: 'combo-04',
+        category: 'combo',
+        name: 'COMBO 04',
+        badge: '2 Chụp + 3 Quay',
+        bestSeller: false,
+        price: 19000000,
+        summary: 'Chụp 2 máy (1 PS + 1 TT) • Quay 2 máy PS + 1 máy TT (>30 phút)',
+        bullets: [
+          'Chụp 2 máy: 1 Phóng sự và 1 Truyền thống (TT xuất phát ở nhà trai - PS ở nhà gái)',
+          'Quay 2 máy Phóng sự (xuất phát 1 máy nhà gái và 1 máy nhà trai, giao clip từ 7-15 phút)',
+          'Quay 1 máy Truyền thống (xuất phát từ nhà trai, giao clip trên 30 phút)'
+        ]
+      },
+      {
+        id: 'combo-05',
+        category: 'combo',
+        name: 'COMBO 05',
+        badge: '3 Chụp + 2 Quay PS',
+        bestSeller: true,
+        price: 18000000,
+        summary: 'Chụp 3 máy (2 PS + 1 TT) • Quay 2 máy Phóng sự (nhà gái & nhà trai)',
+        bullets: [
+          'Gói Best Seller cao cấp tối ưu nhân sự hai họ',
+          'Chụp 3 máy: 2 Phóng sự và 1 Truyền thống (1 TT và 1 PS ở nhà trai - 1 PS ở nhà gái)',
+          'Quay 2 máy Phóng sự (xuất phát 1 máy nhà gái và 1 máy nhà trai, giao clip từ 7-15 phút)'
+        ]
+      },
+      {
+        id: 'combo-06',
+        category: 'combo',
+        name: 'COMBO 06',
+        badge: '3 Chụp + 3 Quay (Trọn Gói)',
+        bestSeller: false,
+        price: 22000000,
+        summary: 'Chụp 3 máy (2 PS + 1 TT) • Quay 2 máy PS + 1 máy TT (>30 phút)',
+        bullets: [
+          'Chụp 3 máy: 2 Phóng sự và 1 Truyền thống (1 TT và 1 PS ở nhà trai - 1 PS ở nhà gái)',
+          'Quay 2 máy Phóng sự (xuất phát 1 máy nhà gái và 1 máy nhà trai, giao clip từ 7-15 phút)',
+          'Quay 1 máy Truyền thống (xuất phát từ nhà trai, giao clip trên 30 phút)'
+        ]
+      },
+
+      // 4. DỊCH VỤ LỄ CƯỚI
+      {
+        id: 'le-chup-nha-tho-rieng',
+        category: 'lecung',
+        name: 'Chụp Lễ Nhà Thờ (Ngày riêng biệt)',
+        badge: 'Lễ Nhà Thờ',
+        bestSeller: false,
+        price: 2000000,
+        summary: 'Lễ tổ chức vào 1 ngày riêng biệt • Chỉnh sửa ảnh, màu sắc, mịn da',
+        bullets: [
+          'Áp dụng cho Lễ Nhà Thờ tổ chức vào 1 ngày riêng biệt',
+          'Chỉnh sửa ảnh, màu sắc, cắt, mịn da, bối cảnh đồng bộ trang trọng',
+          'Lưu ý: Gói chưa bao gồm phí di chuyển xa nội thành Biên Hoà'
+        ]
+      },
+      {
+        id: 'le-chup-nha-tho-chung',
+        category: 'lecung',
+        name: 'Chụp Lễ Nhà Thờ (Chung ngày lễ gia tiên / tiệc)',
+        badge: 'Phụ thu',
+        bestSeller: false,
+        price: 500000,
+        summary: 'Phụ thu khi gộp chung ngày với lễ gia tiên hoặc tiệc cưới',
+        bullets: [
+          'Áp dụng khi Lễ Nhà Thờ diễn ra chung ngày với lễ gia tiên hoặc tiệc cưới (phụ thu 500.000Đ)',
+          'Chỉnh sửa ảnh, màu sắc, cắt, mịn da, bối cảnh',
+          'Lưu ý: Gói chưa bao gồm phí di chuyển xa nội thành Biên Hoà'
+        ]
+      },
+      {
+        id: 'le-quay-nha-tho-rieng',
+        category: 'lecung',
+        name: 'Quay Lễ Nhà Thờ (Ngày riêng biệt)',
+        badge: 'Lễ Nhà Thờ',
+        bestSeller: false,
+        price: 2500000,
+        summary: 'Lễ tổ chức vào 1 ngày riêng biệt • Chỉnh sửa clip, màu sắc, âm nhạc',
+        bullets: [
+          'Áp dụng cho Quay Lễ Nhà Thờ vào 1 ngày riêng biệt',
+          'Chỉnh sửa clip, màu sắc, cắt ghép, mịn da, thêm nhạc, bối cảnh',
+          'Lưu ý: Gói chưa bao gồm phí di chuyển xa nội thành Biên Hoà'
+        ]
+      },
+      {
+        id: 'le-quay-nha-tho-chung',
+        category: 'lecung',
+        name: 'Quay Lễ Nhà Thờ (Chung ngày lễ gia tiên / tiệc)',
+        badge: 'Phụ thu',
+        bestSeller: false,
+        price: 500000,
+        summary: 'Phụ thu quay lễ nhà thờ khi chung ngày lễ gia tiên hoặc tiệc cưới',
+        bullets: [
+          'Áp dụng khi Quay Lễ Nhà Thờ chung với lễ gia tiên hoặc tiệc cưới (phụ thu 500.000Đ)',
+          'Chỉnh sửa clip, màu sắc, cắt ghép, mịn da, thêm nhạc, bối cảnh',
+          'Lưu ý: Gói chưa bao gồm phí di chuyển xa nội thành Biên Hoà'
+        ]
+      },
+      {
+        id: 'le-chup-hang-thuan',
+        category: 'lecung',
+        name: 'Chụp Lễ Hằng Thuận',
+        badge: 'Lễ Hằng Thuận',
+        bestSeller: false,
+        price: 2000000,
+        summary: 'Chụp nghi thức Lễ Hằng Thuận tại chùa • Chỉnh sửa hoàn thiện',
+        bullets: [
+          'Ghi lại trọn vẹn nghi thức Lễ Hằng Thuận trang nghiêm, ấm cúng',
+          'Chỉnh sửa màu sắc, cắt ghép, mịn da, bối cảnh',
+          'Lưu ý: Gói chưa bao gồm phí di chuyển xa nội thành Biên Hoà'
+        ]
+      },
+      {
+        id: 'le-quay-hang-thuan',
+        category: 'lecung',
+        name: 'Quay Lễ Hằng Thuận',
+        badge: 'Lễ Hằng Thuận',
+        bestSeller: false,
+        price: 2500000,
+        summary: 'Quay video Lễ Hằng Thuận • Chỉnh sửa clip, màu sắc, thêm nhạc',
+        bullets: [
+          'Quay phim nghi thức Lễ Hằng Thuận hoàn thiện',
+          'Chỉnh sửa clip, màu sắc, cắt ghép, mịn da, thêm nhạc, bối cảnh',
+          'Lưu ý: Gói chưa bao gồm phí di chuyển xa nội thành Biên Hoà'
+        ]
+      },
+
+      // 5. DỊCH VỤ MAKEUP (THU LEE MAKEUP)
+      {
+        id: 'mk-codau-tiem',
+        category: 'makeup',
+        name: 'Makeup Cô Dâu (Tại Tiệm)',
+        badge: 'Thu Lee Makeup',
+        bestSeller: false,
+        price: 2300000,
+        summary: 'Trang điểm cô dâu tại tiệm • Tặng Lens + Phụ kiện + Makeup Body',
+        bullets: [
+          'Thực hiện trực tiếp bởi Thu Lee Makeup tại tiệm',
+          'Ưu đãi tặng kèm: Tặng Lens Mắt cho cô dâu',
+          'Ưu đãi tặng kèm: Hỗ Trợ Phụ Kiện Cưới cho cô dâu',
+          'Ưu đãi tặng kèm: Tặng Makeup Body cho cô dâu'
+        ]
+      },
+      {
+        id: 'mk-codau-nha',
+        category: 'makeup',
+        name: 'Makeup Cô Dâu (Tới Nhà)',
+        badge: 'Thu Lee Makeup',
+        bestSeller: true,
+        price: 2500000,
+        summary: 'Trang điểm cô dâu tận nhà • Tặng Lens + Phụ kiện + Makeup Body',
+        bullets: [
+          'Thực hiện bởi Thu Lee Makeup tận nơi tại nhà cô dâu',
+          'Ưu đãi tặng kèm: Tặng Lens Mắt cho cô dâu',
+          'Ưu đãi tặng kèm: Hỗ Trợ Phụ Kiện Cưới cho cô dâu',
+          'Ưu đãi tặng kèm: Tặng Makeup Body cho cô dâu'
+        ]
+      },
+      {
+        id: 'mk-takecare',
+        category: 'makeup',
+        name: 'Takecare Cô Dâu',
+        badge: 'Theo buổi',
+        bestSeller: false,
+        price: 500000,
+        summary: 'Theo sát dặm phấn, thay đổi kiểu tóc & hỗ trợ cô dâu trong ngày cưới',
+        bullets: [
+          'Đi theo chăm sóc, dặm lại lớp nền, son môi và chỉnh trang tóc suốt buổi lễ/tiệc',
+          'Giúp cô dâu luôn rạng rỡ và chỉn chu trong mọi khung hình'
+        ]
+      },
+      {
+        id: 'mk-basui',
+        category: 'makeup',
+        name: 'Makeup Bà Sui',
+        badge: 'Người thân',
+        bestSeller: false,
+        price: 500000,
+        summary: 'Trang điểm & làm tóc sang trọng, quý phái cho mẹ cô dâu / mẹ chú rể',
+        bullets: [
+          'Trang điểm và làm tóc tôn nét phúc hậu, sang trọng cho Bà Sui',
+          'Sử dụng mỹ phẩm cao cấp, giữ lớp nền bền đẹp suốt buổi lễ'
+        ]
+      },
+      {
+        id: 'mk-khach-tiem',
+        category: 'makeup',
+        name: 'Makeup Khách Tiệc (Tại Tiệm)',
+        badge: 'Tại tiệm',
+        bestSeller: false,
+        price: 350000,
+        summary: 'Trang điểm & làm tóc dự tiệc tại tiệm cho người thân, bạn bè',
+        bullets: [
+          'Trang điểm và làm tóc nhẹ nhàng, tự nhiên cho khách dự tiệc tại tiệm',
+          'Có thể chọn tăng số lượng người trong phần tạm tính báo giá'
+        ]
+      },
+      {
+        id: 'mk-khach-nha',
+        category: 'makeup',
+        name: 'Makeup Khách Tiệc (Tới Nhà)',
+        badge: 'Tận nơi',
+        bestSeller: false,
+        price: 400000,
+        summary: 'Trang điểm & làm tóc dự tiệc tận nhà cho người thân, phụ dâu',
+        bullets: [
+          'Trang điểm và làm tóc tận nhà cho người thân, bạn bè cô dâu chú rể',
+          'Có thể chọn tăng số lượng người trong phần tạm tính báo giá'
+        ]
+      },
+      {
+        id: 'mk-khach-chung',
+        category: 'makeup',
+        name: 'Makeup Khách Tiệc (Book Chung Với Cô Dâu)',
+        badge: 'Giá Ưu Đãi',
+        bestSeller: false,
+        price: 300000,
+        summary: 'Ưu đãi còn 300.000Đ/người khi đặt kèm gói Makeup Cô Dâu',
+        bullets: [
+          'Mức giá ưu đãi đặc biệt (300.000Đ/người) khi đăng ký chung cùng gói Makeup Cô Dâu',
+          'Phù hợp cho đội bưng quả, chị em gái và người thân trong gia đình'
+        ]
+      }
+    ];
+
+    // =========================================================================
+    // 2. APPLICATION STATE & STORAGE
+    // =========================================================================
+    const STORAGE_KEY = 'tach_wedding_pricing_2026_v1';
+    const CLIENT_READONLY_MODE = false; // Automatically set to true when exporting customer HTML
+    let CLOUD_SYNC_URL = '';
+    let ADMIN_PIN = '2026';
+
+    let state = {
+      activeCategory: 'all',
+      searchQuery: '',
+      editMode: false,
+      customerPreview: CLIENT_READONLY_MODE,
+      activeModalPkgId: null,
+      categories: [],
+      packages: [],
+      selectedCart: {}, // { pkgId: quantity }
+      traiBuoiSurcharge: false,
+      extraTravelFee: 0,
+      ai: {
+        budget: 12000000,
+        needChup: true,
+        needQuay: true,
+        needMakeup: false,
+        needLe: false,
+        needMultiCam: false,
+        customPrompt: '',
+        collapsed: false
+      }
+    };
+
+    function cloneDefaultCategories() {
+      return JSON.parse(JSON.stringify(CATEGORIES));
+    }
+
+    function cloneDefaultPackages() {
+      return JSON.parse(JSON.stringify(DEFAULT_PACKAGES));
+    }
+
+    function loadState() {
+      state.categories = cloneDefaultCategories();
+      state.packages = cloneDefaultPackages();
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (raw) {
+          const parsed = JSON.parse(raw);
+          if (Array.isArray(parsed.categories) && parsed.categories.length > 0) {
+            state.categories = parsed.categories;
+          }
+          if (Array.isArray(parsed.packages) && parsed.packages.length > 0) {
+            state.packages = parsed.packages;
+          }
+          if (parsed.cloudSyncUrl) CLOUD_SYNC_URL = parsed.cloudSyncUrl;
+          if (parsed.adminPin) ADMIN_PIN = String(parsed.adminPin);
+        }
+      } catch (err) {
+        // Fallback to in-memory state if localStorage is restricted
+      }
+      const urlInput = document.getElementById('cloudSyncUrlInput');
+      const pinInput = document.getElementById('adminPinConfigInput');
+      if (urlInput) urlInput.value = CLOUD_SYNC_URL;
+      if (pinInput) pinInput.value = ADMIN_PIN;
+    }
+
+    async function fetchFromCloudIfConfigured() {
+      if (!CLOUD_SYNC_URL || !CLOUD_SYNC_URL.startsWith('https://')) return;
+      const statusEl = document.getElementById('cloudStatusIndicator');
+      try {
+        const res = await fetch(CLOUD_SYNC_URL, { method: 'GET', cache: 'no-store' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+        if (data && Array.isArray(data.packages) && data.packages.length > 0) {
+          if (Array.isArray(data.categories) && data.categories.length > 0) {
+            state.categories = data.categories;
+          }
+          state.packages = data.packages;
+          renderCategoryTabs();
+          renderPricingSections();
+          renderQuoteBar();
+          renderAiRecommendations();
+          if (statusEl) {
+            statusEl.innerHTML = '<span class="w-2 h-2 rounded-full bg-emerald-600"></span><span>Đã đồng bộ giá trực tuyến mới nhất</span>';
+          }
+        }
+      } catch (err) {
+        if (statusEl) {
+          statusEl.innerHTML = '<span class="w-2 h-2 rounded-full bg-amber-500"></span><span>Đang dùng bảng giá lưu sẵn</span>';
+        }
+      }
+    }
+
+    async function pushToCloudIfConfigured(showFeedback) {
+      if (!CLOUD_SYNC_URL || !CLOUD_SYNC_URL.startsWith('https://')) {
+        if (showFeedback) showToast('Đã lưu trên máy! (Hãy nhập HTTPS Cloud URL nếu muốn đồng bộ từ xa)');
+        return;
+      }
+      try {
+        const res = await fetch(CLOUD_SYNC_URL, {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            updatedAt: new Date().toISOString(),
+            categories: state.categories,
+            packages: state.packages
+          })
+        });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        if (showFeedback) showToast('☁️ Đã đồng bộ bảng giá mới lên Cloud thành công!');
+      } catch (err) {
+        if (showFeedback) showToast('Không thể kết nối Cloud URL — Đã lưu tạm trên trình duyệt');
+      }
+    }
+
+    function saveState() {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify({
+          categories: state.categories,
+          packages: state.packages,
+          cloudSyncUrl: CLOUD_SYNC_URL,
+          adminPin: ADMIN_PIN
+        }));
+      } catch (err) {
+        // Ignore storage error inside sandboxed iframe
+      }
+      updateResetButtonVisibility();
+      populateCategorySelectDropdown();
+      renderAiRecommendations();
+      pushToCloudIfConfigured(false);
+    }
+
+    function populateCategorySelectDropdown() {
+      const sel = document.getElementById('newPkgCatSelect');
+      if (!sel) return;
+      const currentVal = sel.value;
+      sel.innerHTML = '';
+      state.categories.filter(c => c.id !== 'all').forEach((cat, idx) => {
+        const opt = document.createElement('option');
+        opt.value = cat.id;
+        opt.textContent = `${cat.num || (idx + 1)}. ${cat.shortName || cat.name}`;
+        sel.appendChild(opt);
+      });
+      const newOpt = document.createElement('option');
+      newOpt.value = '__new__';
+      newOpt.textContent = '+ Tạo danh mục dịch vụ mới (VD: Pre-wedding, Áo cưới...)';
+      sel.appendChild(newOpt);
+      if (currentVal && Array.from(sel.options).some(o => o.value === currentVal)) {
+        sel.value = currentVal;
+      }
+    }
+
+    function formatVND(amount) {
+      const num = Math.max(0, Math.round(Number(amount) || 0));
+      return num.toLocaleString('vi-VN') + 'Đ';
+    }
+
+    function getDefaultPkg(id) {
+      return DEFAULT_PACKAGES.find(p => p.id === id) || null;
+    }
+
+    function hasAnyModifiedPriceOrCustom() {
+      if (state.categories.length !== CATEGORIES.length) return true;
+      if (state.packages.length !== DEFAULT_PACKAGES.length) return true;
+      for (const pkg of state.packages) {
+        const def = getDefaultPkg(pkg.id);
+        if (!def) return true;
+        if (Number(pkg.price) !== Number(def.price)) return true;
+        if (pkg.name !== def.name || pkg.summary !== def.summary) return true;
+      }
+      return false;
+    }
+
+    function showToast(msg) {
+      const box = document.getElementById('toastBox');
+      const text = document.getElementById('toastMessage');
+      text.textContent = msg;
+      box.classList.remove('hidden');
+      box.classList.add('flex');
+      clearTimeout(window.__toastTimer);
+      window.__toastTimer = setTimeout(() => {
+        box.classList.add('hidden');
+        box.classList.remove('flex');
+      }, 2400);
+    }
+
+    // =========================================================================
+    // 3. RENDER FUNCTIONS
+    // =========================================================================
+    function renderCategoryTabs() {
+      const container = document.getElementById('categoryTabs');
+      container.innerHTML = '';
+
+      state.categories.forEach(cat => {
+        const isActive = state.activeCategory === cat.id;
+        const count = cat.id === 'all'
+          ? state.packages.length
+          : state.packages.filter(p => p.category === cat.id).length;
+
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = isActive
+          ? 'px-3.5 py-1.5 rounded-full text-xs font-semibold bg-[#4A0E17] text-[#F5E6C8] shadow-xs shrink-0 transition flex items-center gap-1.5'
+          : 'px-3.5 py-1.5 rounded-full text-xs font-medium bg-white hover:bg-[#EFE6D8] text-[#5A3A28] border border-[#D8CBB8] shrink-0 transition flex items-center gap-1.5';
+
+        btn.innerHTML = `
+          <span>${cat.shortName}</span>
+          <span class="text-[10px] px-1.5 py-0.2 rounded-full ${isActive ? 'bg-[#D4AF37] text-[#2E070D] font-bold' : 'bg-[#F3EAE0] text-[#6B3E26]'}">${count}</span>
+        `;
+        btn.addEventListener('click', () => {
+          state.activeCategory = cat.id;
+          renderCategoryTabs();
+          renderPricingSections();
+        });
+        container.appendChild(btn);
+      });
+    }
+
+    function updateResetButtonVisibility() {
+      const resetBtn = document.getElementById('resetPricesBtn');
+      if (!resetBtn) return;
+      if (state.customerPreview) {
+        resetBtn.classList.add('hidden');
+        resetBtn.classList.remove('inline-flex');
+        return;
+      }
+      const modified = hasAnyModifiedPriceOrCustom();
+      if (modified) {
+        resetBtn.classList.remove('hidden');
+        resetBtn.classList.add('inline-flex');
+      } else {
+        resetBtn.classList.add('hidden');
+        resetBtn.classList.remove('inline-flex');
+      }
+    }
+
+    function applyCustomerPreviewUI() {
+      const adminEls = document.querySelectorAll('.admin-only-control');
+      const exitBtn = document.getElementById('exitCustomerPreviewBtn');
+      const editBanner = document.getElementById('editModeBanner');
+
+      if (state.customerPreview) {
+        state.editMode = false;
+        if (editBanner) editBanner.classList.add('hidden');
+        adminEls.forEach(el => {
+          el.classList.add('hidden');
+          el.classList.remove('inline-flex', 'flex');
+        });
+        if (!CLIENT_READONLY_MODE && exitBtn) {
+          exitBtn.classList.remove('hidden');
+          exitBtn.classList.add('inline-flex');
+        }
+      } else {
+        adminEls.forEach(el => {
+          if (el.id === 'resetPricesBtn') return;
+          el.classList.remove('hidden');
+          if (el.id === 'modalQuickEditPriceControls') {
+            el.classList.add('flex');
+          } else {
+            el.classList.add('inline-flex');
+          }
+        });
+        if (exitBtn) {
+          exitBtn.classList.add('hidden');
+          exitBtn.classList.remove('inline-flex');
+        }
+        updateResetButtonVisibility();
+      }
+      renderPricingSections();
+    }
+
+    function exportCustomerReadonlyHtml() {
+      let htmlSource = '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
+
+      // Replace CATEGORIES and DEFAULT_PACKAGES with the current customized state
+      const newCatsJson = JSON.stringify(state.categories, null, 6);
+      const newPkgsJson = JSON.stringify(state.packages, null, 6);
+
+      htmlSource = htmlSource.replace(
+        /const CATEGORIES = \[[\s\S]*?\];/,
+        'const CATEGORIES = ' + newCatsJson + ';'
+      );
+      htmlSource = htmlSource.replace(
+        /const DEFAULT_PACKAGES = \[[\s\S]*?\];/,
+        'const DEFAULT_PACKAGES = ' + newPkgsJson + ';'
+      );
+      htmlSource = htmlSource.replace(
+        'const CLIENT_READONLY_MODE = false;',
+        'const CLIENT_READONLY_MODE = true;'
+      );
+      htmlSource = htmlSource.replace(
+        "let CLOUD_SYNC_URL = '';",
+        "let CLOUD_SYNC_URL = " + JSON.stringify(CLOUD_SYNC_URL || '') + ";"
+      );
+      htmlSource = htmlSource.replace(
+        "let ADMIN_PIN = '2026';",
+        "let ADMIN_PIN = " + JSON.stringify(ADMIN_PIN || '2026') + ";"
+      );
+      // Use a fresh storage key on customer devices so locked prices always load cleanly
+      htmlSource = htmlSource.replace(
+        "const STORAGE_KEY = 'tach_wedding_pricing_2026_v1';",
+        "const STORAGE_KEY = 'tach_wedding_customer_view_' + " + Date.now() + ";"
+      );
+
+      const blob = new Blob([htmlSource], { type: 'text/html;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'index.html';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      showToast('Đã tải xuống file index.html (Bản khoá giá gửi khách)!');
+    }
+
+    function renderPricingSections() {
+      const container = document.getElementById('pricingContainer');
+      container.innerHTML = '';
+
+      const query = state.searchQuery.trim().toLowerCase();
+      const visibleCategories = state.categories.filter(c =>
+        c.id !== 'all' && (state.activeCategory === 'all' || state.activeCategory === c.id)
+      );
+
+      let totalRendered = 0;
+
+      visibleCategories.forEach(cat => {
+        const pkgs = state.packages.filter(p => {
+          if (p.category !== cat.id) return false;
+          if (!query) return true;
+          const haystack = (p.name + ' ' + p.summary + ' ' + (p.bullets || []).join(' ')).toLowerCase();
+          return haystack.includes(query);
+        });
+
+        if (pkgs.length === 0) return;
+        totalRendered += pkgs.length;
+
+        const section = document.createElement('section');
+        section.className = 'bg-white border border-[#DED0BD] rounded-2xl overflow-hidden shadow-xs';
+
+        // Section Header (matches PDF bronze/burgundy banner)
+        const header = document.createElement('div');
+        header.className = 'bg-[#5A2D18] text-[#FBF8F3] px-4 sm:px-5 py-3.5 flex flex-wrap items-center justify-between gap-2 border-b border-[#D4AF37]/30';
+        header.innerHTML = `
+          <div class="flex items-center gap-2.5">
+            <span class="w-7 h-7 rounded-full bg-[#D4AF37]/20 border border-[#D4AF37]/60 text-[#E6C762] font-bold text-xs inline-flex items-center justify-center shrink-0">
+              ${cat.num}
+            </span>
+            <div>
+              <h3 class="font-serif-luxury text-lg sm:text-xl font-bold tracking-wide text-[#F7E7CE] uppercase">
+                ${cat.name}
+              </h3>
+              <p class="text-[11px] text-[#E6C762]/85 line-clamp-1">${cat.desc}</p>
+            </div>
+          </div>
+          <span class="text-[11px] bg-black/25 px-2.5 py-0.5 rounded-full text-[#E6C762]">
+            ${pkgs.length} gói dịch vụ
+          </span>
+        `;
+        section.appendChild(header);
+
+        // Compact Rows List
+        const list = document.createElement('div');
+        list.className = 'divide-y divide-[#EBE1D2]';
+
+        pkgs.forEach(pkg => {
+          const defPkg = getDefaultPkg(pkg.id);
+          const isPriceChanged = defPkg && Number(defPkg.price) !== Number(pkg.price);
+          const selectedQty = state.selectedCart[pkg.id] || 0;
+
+          const row = document.createElement('div');
+          row.className = `p-3.5 sm:px-5 sm:py-4 transition flex flex-col sm:flex-row sm:items-center justify-between gap-3 ${
+            selectedQty > 0 ? 'bg-[#FDF8EE]' : 'hover:bg-[#FAF5EC]'
+          }`;
+
+          // Left column: Title + Best seller badge + (i) button + 1-line summary
+          const leftDiv = document.createElement('div');
+          leftDiv.className = 'flex-1 min-w-0';
+
+          const titleLine = document.createElement('div');
+          titleLine.className = 'flex items-center gap-2 flex-wrap';
+
+          const titleEl = document.createElement('h4');
+          titleEl.className = 'font-bold text-sm sm:text-base text-[#4A0E17] tracking-tight cursor-pointer hover:underline';
+          titleEl.textContent = pkg.name;
+          titleEl.addEventListener('click', () => openInfoModal(pkg.id));
+          titleLine.appendChild(titleEl);
+
+          // Best Seller Tag (from PDF Combo 02 & Combo 05)
+          if (pkg.bestSeller) {
+            const bs = document.createElement('span');
+            bs.className = 'inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold uppercase bg-amber-400/90 text-[#2E070D] shadow-2xs';
+            bs.innerHTML = '👍 Best Seller';
+            titleLine.appendChild(bs);
+          }
+
+          // Badge
+          if (pkg.badge) {
+            const b = document.createElement('span');
+            b.className = 'text-[10px] font-medium px-2 py-0.5 rounded-md bg-[#EFE6D8] text-[#6B3E26]';
+            b.textContent = pkg.badge;
+            titleLine.appendChild(b);
+          }
+
+          // THE (i) BUTTON requested by user
+          const infoBtn = document.createElement('button');
+          infoBtn.type = 'button';
+          infoBtn.title = 'Xem chi tiết gói & lưu ý (i)';
+          infoBtn.className = 'info-btn inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-[#6B3E26] hover:bg-[#4A0E17] text-[#F7E7CE] text-xs font-semibold shadow-2xs';
+          infoBtn.innerHTML = `
+            <span class="font-serif italic font-bold text-xs leading-none">i</span>
+            <span class="text-[11px]">Chi tiết</span>
+          `;
+          infoBtn.addEventListener('click', () => openInfoModal(pkg.id));
+          titleLine.appendChild(infoBtn);
+
+          leftDiv.appendChild(titleLine);
+
+          const summaryEl = document.createElement('p');
+          summaryEl.className = 'text-xs text-[#5A3A28] mt-1 line-clamp-1';
+          summaryEl.textContent = pkg.summary;
+          leftDiv.appendChild(summaryEl);
+
+          row.appendChild(leftDiv);
+
+          // Right column: Price (or Inline Price Editor) + Select Button
+          const rightDiv = document.createElement('div');
+          rightDiv.className = 'flex items-center justify-between sm:justify-end gap-2.5 shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-[#EFE6D8]';
+
+          if (state.editMode) {
+            // Inline Price Editor controls
+            const editorWrap = document.createElement('div');
+            editorWrap.className = 'flex items-center gap-1 bg-[#F5EFE6] p-1 rounded-xl border border-[#C8B69E]';
+
+            const minusBtn = document.createElement('button');
+            minusBtn.type = 'button';
+            minusBtn.className = 'px-2 py-1 rounded-lg bg-white hover:bg-amber-50 text-xs font-bold text-[#6B3E26] border border-[#D8C7B2]';
+            minusBtn.textContent = '-100k';
+            minusBtn.addEventListener('click', () => {
+              pkg.price = Math.max(0, Number(pkg.price) - 100000);
+              saveState();
+              renderPricingSections();
+              renderQuoteBar();
+            });
+
+            const priceInput = document.createElement('input');
+            priceInput.type = 'number';
+            priceInput.step = '50000';
+            priceInput.min = '0';
+            priceInput.value = pkg.price;
+            priceInput.className = 'w-28 px-2 py-1 text-xs sm:text-sm font-bold text-right rounded-lg bg-white border border-[#6B3E26] text-[#4A0E17] focus:outline-none';
+            priceInput.addEventListener('change', (e) => {
+              pkg.price = Math.max(0, Number(e.target.value) || 0);
+              saveState();
+              renderPricingSections();
+              renderQuoteBar();
+              showToast(`Đã cập nhật giá ${pkg.name}: ${formatVND(pkg.price)}`);
+            });
+
+            const plusBtn = document.createElement('button');
+            plusBtn.type = 'button';
+            plusBtn.className = 'px-2 py-1 rounded-lg bg-white hover:bg-amber-50 text-xs font-bold text-[#6B3E26] border border-[#D8C7B2]';
+            plusBtn.textContent = '+100k';
+            plusBtn.addEventListener('click', () => {
+              pkg.price = Math.max(0, Number(pkg.price) + 100000);
+              saveState();
+              renderPricingSections();
+              renderQuoteBar();
+            });
+
+            editorWrap.appendChild(minusBtn);
+            editorWrap.appendChild(priceInput);
+            editorWrap.appendChild(plusBtn);
+            rightDiv.appendChild(editorWrap);
+          } else {
+            // Normal Price Pill (matching PDF rounded brown pill with bold white text)
+            const priceBox = document.createElement('div');
+            priceBox.className = 'text-right flex flex-col items-end';
+
+            const pricePill = document.createElement('button');
+            pricePill.type = 'button';
+            pricePill.title = state.customerPreview ? 'Xem chi tiết gói' : 'Nhấn để chỉnh nhanh giá gói này';
+            pricePill.className = 'inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#6B3E26] hover:bg-[#4A0E17] text-white font-bold text-xs sm:text-sm tracking-wide shadow-2xs transition';
+            pricePill.innerHTML = state.customerPreview
+              ? `<span>${formatVND(pkg.price)}</span>`
+              : `
+                <span>${formatVND(pkg.price)}</span>
+                <svg class="w-3 h-3 opacity-65" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                </svg>
+              `;
+            pricePill.addEventListener('click', () => openInfoModal(pkg.id));
+            priceBox.appendChild(pricePill);
+
+            if (!state.customerPreview && isPriceChanged && defPkg) {
+              const origSpan = document.createElement('span');
+              origSpan.className = 'text-[10px] text-amber-800 mt-0.5';
+              origSpan.textContent = `Giá gốc PDF: ${formatVND(defPkg.price)}`;
+              priceBox.appendChild(origSpan);
+            }
+            rightDiv.appendChild(priceBox);
+          }
+
+          // Select / Quantity Controls for Quote
+          if (selectedQty === 0) {
+            const selectBtn = document.createElement('button');
+            selectBtn.type = 'button';
+            selectBtn.className = 'px-3 py-1.5 rounded-xl text-xs font-semibold border border-[#6B3E26] text-[#6B3E26] hover:bg-[#4A0E17] hover:text-white hover:border-[#4A0E17] transition';
+            selectBtn.textContent = '+ Chọn';
+            selectBtn.addEventListener('click', () => {
+              state.selectedCart[pkg.id] = 1;
+              renderPricingSections();
+              renderQuoteBar();
+            });
+            rightDiv.appendChild(selectBtn);
+          } else {
+            const qtyControl = document.createElement('div');
+            qtyControl.className = 'inline-flex items-center gap-1 bg-[#4A0E17] text-[#F5E6C8] rounded-xl p-0.5 shadow-xs';
+
+            const decBtn = document.createElement('button');
+            decBtn.type = 'button';
+            decBtn.className = 'w-6 h-6 rounded-lg hover:bg-white/15 font-bold text-xs inline-flex items-center justify-center';
+            decBtn.textContent = '−';
+            decBtn.addEventListener('click', () => {
+              if (state.selectedCart[pkg.id] <= 1) {
+                delete state.selectedCart[pkg.id];
+              } else {
+                state.selectedCart[pkg.id] -= 1;
+              }
+              renderPricingSections();
+              renderQuoteBar();
+            });
+
+            const qtyLabel = document.createElement('span');
+            qtyLabel.className = 'px-1.5 text-xs font-bold';
+            qtyLabel.textContent = selectedQty;
+
+            const incBtn = document.createElement('button');
+            incBtn.type = 'button';
+            incBtn.className = 'w-6 h-6 rounded-lg hover:bg-white/15 font-bold text-xs inline-flex items-center justify-center';
+            incBtn.textContent = '+';
+            incBtn.addEventListener('click', () => {
+              state.selectedCart[pkg.id] = (state.selectedCart[pkg.id] || 1) + 1;
+              renderPricingSections();
+              renderQuoteBar();
+            });
+
+            qtyControl.appendChild(decBtn);
+            qtyControl.appendChild(qtyLabel);
+            qtyControl.appendChild(incBtn);
+            rightDiv.appendChild(qtyControl);
+          }
+
+          row.appendChild(rightDiv);
+          list.appendChild(row);
+        });
+
+        section.appendChild(list);
+
+        // Compact Footer Note inside each category card
+        if (cat.notes && cat.notes.length > 0) {
+          const footerNote = document.createElement('div');
+          footerNote.className = 'bg-[#F6EFE5] px-4 sm:px-5 py-2.5 border-t border-[#E5D8C5] flex flex-wrap items-center justify-between gap-2 text-[11px] text-[#6B3E26]';
+          footerNote.innerHTML = `
+            <span><strong>Lưu ý:</strong> ${cat.notes[0]} • ${cat.notes[1] || ''}</span>
+            <button type="button" class="underline font-semibold hover:text-[#4A0E17] view-cat-notes-btn">Xem đầy đủ lưu ý (i)</button>
+          `;
+          footerNote.querySelector('.view-cat-notes-btn').addEventListener('click', () => {
+            document.getElementById('processModal').classList.remove('hidden');
+            document.getElementById('processModal').classList.add('flex');
+          });
+          section.appendChild(footerNote);
+        }
+
+        container.appendChild(section);
+      });
+
+      if (totalRendered === 0) {
+        container.innerHTML = `
+          <div class="bg-white border border-[#DED0BD] rounded-2xl p-8 text-center space-y-2">
+            <p class="text-base font-semibold text-[#4A0E17]">Không tìm thấy gói dịch vụ phù hợp</p>
+            <p class="text-xs text-[#6B3E26]">Hãy thử từ khoá khác hoặc xoá bộ lọc tìm kiếm.</p>
+          </div>
+        `;
+      }
+    }
+
+    // =========================================================================
+    // 4. (i) DETAIL & PRICE EDIT MODAL LOGIC
+    // =========================================================================
+    function openInfoModal(pkgId) {
+      const pkg = state.packages.find(p => p.id === pkgId);
+      if (!pkg) return;
+      state.activeModalPkgId = pkgId;
+
+      const cat = state.categories.find(c => c.id === pkg.category);
+      const defPkg = getDefaultPkg(pkg.id);
+
+      document.getElementById('modalCategoryBadge').textContent = cat ? cat.name : 'Dịch vụ cưới';
+      document.getElementById('modalTitle').textContent = pkg.name;
+      document.getElementById('modalPriceDisplay').textContent = formatVND(pkg.price);
+      document.getElementById('modalPriceInput').value = pkg.price;
+
+      const origHint = document.getElementById('modalOriginalPriceHint');
+      if (!state.customerPreview && defPkg && Number(defPkg.price) !== Number(pkg.price)) {
+        origHint.textContent = formatVND(defPkg.price);
+        origHint.classList.remove('hidden');
+      } else {
+        origHint.classList.add('hidden');
+      }
+
+      // Render bullets
+      const bulletsList = document.getElementById('modalBulletsList');
+      bulletsList.innerHTML = '';
+      (pkg.bullets || []).forEach(b => {
+        const li = document.createElement('li');
+        li.className = 'flex items-start gap-2.5 bg-[#FAF5EC] border border-[#EDE2D2] rounded-xl px-3 py-2';
+        li.innerHTML = `
+          <span class="text-[#6B3E26] font-bold mt-0.5">✦</span>
+          <span>${b}</span>
+        `;
+        bulletsList.appendChild(li);
+      });
+
+      // Render category notes
+      const notesList = document.getElementById('modalNotesList');
+      notesList.innerHTML = '';
+      const notes = (cat && cat.notes) ? cat.notes : [];
+      notes.forEach(n => {
+        const li = document.createElement('li');
+        li.textContent = n;
+        notesList.appendChild(li);
+      });
+
+      // Populate edit inputs inside modal
+      document.getElementById('modalEditNameInput').value = pkg.name;
+      document.getElementById('modalEditSummaryInput').value = pkg.summary;
+      document.getElementById('modalEditBulletsTextarea').value = (pkg.bullets || []).join('\n');
+
+      // Reset edit details drawer state unless global editMode is on
+      const editSection = document.getElementById('modalEditDetailsSection');
+      if (state.editMode) {
+        editSection.classList.remove('hidden');
+      } else {
+        editSection.classList.add('hidden');
+      }
+
+      updateModalSelectButtonText(pkgId);
+
+      const modal = document.getElementById('infoModal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function updateModalSelectButtonText(pkgId) {
+      const btn = document.getElementById('modalSelectPkgBtn');
+      const isSelected = (state.selectedCart[pkgId] || 0) > 0;
+      if (isSelected) {
+        btn.textContent = `✓ Đã chọn (${state.selectedCart[pkgId]}) — Bấm để bỏ chọn`;
+        btn.className = 'px-4 py-2 rounded-xl text-xs font-semibold bg-emerald-800 hover:bg-emerald-900 text-white transition shadow';
+      } else {
+        btn.textContent = '+ Chọn gói này vào báo giá';
+        btn.className = 'px-4 py-2 rounded-xl text-xs font-semibold bg-[#4A0E17] hover:bg-[#6B1824] text-[#F5E6C8] transition shadow';
+      }
+    }
+
+    // =========================================================================
+    // 5. QUOTE CALCULATOR & CLIPBOARD EXPORT
+    // =========================================================================
+    function calculateQuoteTotals() {
+      let subtotal = 0;
+      let eligibleForTraiBuoi = 0;
+      const items = [];
+
+      Object.keys(state.selectedCart).forEach(pkgId => {
+        const qty = state.selectedCart[pkgId];
+        if (!qty || qty <= 0) return;
+        const pkg = state.packages.find(p => p.id === pkgId);
+        if (!pkg) return;
+        const lineTotal = Number(pkg.price) * qty;
+        subtotal += lineTotal;
+        if (['chup', 'quay', 'combo'].includes(pkg.category)) {
+          eligibleForTraiBuoi += lineTotal;
+        }
+        items.push({ pkg, qty, lineTotal });
+      });
+
+      const surcharge = state.traiBuoiSurcharge ? Math.round(eligibleForTraiBuoi * 0.5) : 0;
+      const travel = Math.max(0, Number(state.extraTravelFee) || 0);
+      const grandTotal = subtotal + surcharge + travel;
+
+      return { items, subtotal, surcharge, travel, grandTotal };
+    }
+
+    function renderQuoteBar() {
+      const { items, grandTotal } = calculateQuoteTotals();
+      const count = items.reduce((acc, item) => acc + item.qty, 0);
+
+      document.getElementById('selectedCountBadge').textContent = count;
+      document.getElementById('totalQuotePrice').textContent = formatVND(grandTotal);
+
+      const summaryEl = document.getElementById('selectedSummaryText');
+      const clearBtn = document.getElementById('clearQuoteBtn');
+
+      if (items.length === 0) {
+        summaryEl.textContent = 'Chưa chọn gói nào — Bấm "+ Chọn" trên các gói để tính tổng chi phí';
+        clearBtn.classList.add('hidden');
+      } else {
+        summaryEl.textContent = items.map(i => i.qty > 1 ? `${i.pkg.name} (x${i.qty})` : i.pkg.name).join(' + ');
+        clearBtn.classList.remove('hidden');
+      }
+    }
+
+    function renderQuoteModalContent() {
+      const { items, surcharge, travel, grandTotal } = calculateQuoteTotals();
+      const container = document.getElementById('quoteItemsContainer');
+      container.innerHTML = '';
+
+      if (items.length === 0) {
+        container.innerHTML = `
+          <div class="text-center py-6 text-xs text-[#6B3E26] bg-white rounded-xl border border-[#E5D8C5]">
+            Bạn chưa chọn gói dịch vụ nào. Hãy bấm nút <strong>"+ Chọn"</strong> ở bảng giá bên ngoài để thêm vào báo giá.
+          </div>
+        `;
+      } else {
+        items.forEach(({ pkg, qty, lineTotal }) => {
+          const itemRow = document.createElement('div');
+          itemRow.className = 'bg-white border border-[#DFD1BE] rounded-xl p-3 flex items-center justify-between gap-2';
+          itemRow.innerHTML = `
+            <div class="min-w-0">
+              <div class="font-bold text-xs sm:text-sm text-[#4A0E17] truncate">${pkg.name}</div>
+              <div class="text-[11px] text-[#6B3E26]">${formatVND(pkg.price)} × ${qty}</div>
+            </div>
+            <div class="flex items-center gap-2 shrink-0">
+              <span class="font-bold text-sm text-[#4A0E17]">${formatVND(lineTotal)}</span>
+              <button type="button" class="text-xs text-red-700 hover:underline px-1 remove-quote-item">Xoá</button>
+            </div>
+          `;
+          itemRow.querySelector('.remove-quote-item').addEventListener('click', () => {
+            delete state.selectedCart[pkg.id];
+            renderPricingSections();
+            renderQuoteBar();
+            renderQuoteModalContent();
+          });
+          container.appendChild(itemRow);
+        });
+      }
+
+      document.getElementById('modalQuoteGrandTotal').textContent = formatVND(grandTotal);
+    }
+
+    function copyTextToClipboard(text, successMsg) {
+      const fallbackCopy = () => {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        try {
+          document.execCommand('copy');
+          showToast(successMsg);
+        } catch (err) {
+          showToast('Không thể sao chép tự động');
+        }
+        document.body.removeChild(ta);
+      };
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => {
+          showToast(successMsg);
+        }).catch(fallbackCopy);
+      } else {
+        fallbackCopy();
+      }
+    }
+
+    function buildQuoteMessage() {
+      const { items, surcharge, travel, grandTotal } = calculateQuoteTotals();
+      const lines = [
+        '✨ BÁO GIÁ DỊCH VỤ CƯỚI 2026 - TACH WEDDING COVERAGE (TIỆM ẢNH CHÚ HÙNG) ✨',
+        '----------------------------------------'
+      ];
+      if (items.length === 0) {
+        lines.push('(Chưa chọn gói dịch vụ cụ thể)');
+      } else {
+        items.forEach(({ pkg, qty, lineTotal }, idx) => {
+          lines.push(`${idx + 1}. ${pkg.name}${qty > 1 ? ' (x' + qty + ')' : ''}: ${formatVND(lineTotal)}`);
+          (pkg.bullets || []).forEach(b => lines.push(`   • ${b}`));
+        });
+      }
+      if (surcharge > 0) {
+        lines.push(`+ Phụ thu lễ - tiệc trái buổi (50%): ${formatVND(surcharge)}`);
+      }
+      if (travel > 0) {
+        lines.push(`+ Phụ thu di chuyển ngoại thành Biên Hoà: ${formatVND(travel)}`);
+      }
+      lines.push('----------------------------------------');
+      lines.push(`👉 TỔNG TẠM TÍNH: ${formatVND(grandTotal)}`);
+      lines.push('📸 Chụp bằng cả trái tim – Lưu giữ trọn khoảnh khắc!');
+      return lines.join('\n');
+    }
+
+    function buildFullPriceTableText() {
+      const lines = [
+        '📋 BẢNG GIÁ DỊCH VỤ CƯỚI 2026 - TACH WEDDING COVERAGE (TIỆM ẢNH CHÚ HÙNG)',
+        '========================================'
+      ];
+      state.categories.filter(c => c.id !== 'all').forEach(cat => {
+        lines.push(`\n[${cat.name.toUpperCase()}]`);
+        const pkgs = state.packages.filter(p => p.category === cat.id);
+        pkgs.forEach(p => {
+          lines.push(`- ${p.name}: ${formatVND(p.price)} (${p.summary})`);
+        });
+      });
+      return lines.join('\n');
+    }
+
+    // =========================================================================
+    // 5B. SMART AI BUDGET ADVISOR ENGINE
+    // =========================================================================
+    function parseNaturalLanguagePrompt(text) {
+      if (!text || !text.trim()) return null;
+      const lower = text.toLowerCase();
+      let detectedBudget = null;
+
+      // Match e.g. "12 triệu", "12tr", "12.5 tr", "12,5 triệu", "12000000"
+      const trMatch = lower.match(/(\d+(?:[.,]\d+)?)\s*(?:triệu|trieu|tr|củ|cu)\b/);
+      if (trMatch) {
+        const val = parseFloat(trMatch[1].replace(',', '.'));
+        if (!isNaN(val) && val > 0) {
+          detectedBudget = Math.round(val * 1000000);
+        }
+      } else {
+        const rawMatch = lower.match(/(\d{7,9})/);
+        if (rawMatch) {
+          detectedBudget = parseInt(rawMatch[1], 10);
+        } else {
+          const smallNum = lower.match(/\b(\d{1,2})\b/);
+          if (smallNum) {
+            const n = parseInt(smallNum[1], 10);
+            if (n >= 2 && n <= 45) detectedBudget = n * 1000000;
+          }
+        }
+      }
+
+      const mentionsChup = /chụp|chup|ảnh|anh|phóng sự|phong su|truyền thống/.test(lower);
+      const mentionsQuay = /quay|video|clip|phim/.test(lower);
+      const mentionsCombo = /combo|trọn gói|tron goi|cả hai|ca hai|chụp quay|quay chụp/.test(lower);
+      const mentionsMakeup = /makeup|make up|trang điểm|trang diem|cô dâu|co dau|thu lee/.test(lower);
+      const mentionsLe = /nhà thờ|nha tho|hằng thuận|hang thuan|lễ chùa|le chua/.test(lower);
+      const mentionsMulti = /2 máy|3 máy|hai máy|ba máy|đông|2 bên|hai họ/.test(lower);
+
+      return {
+        detectedBudget,
+        mentionsChup,
+        mentionsQuay,
+        mentionsCombo,
+        mentionsMakeup,
+        mentionsLe,
+        mentionsMulti
+      };
+    }
+
+    function generateAiBundles() {
+      const budget = Math.max(500000, Number(state.ai.budget) || 12000000);
+      const { needChup, needQuay, needMakeup, needLe, needMultiCam } = state.ai;
+
+      const chupPkgs = state.packages.filter(p => p.category === 'chup').sort((a, b) => a.price - b.price);
+      const quayPkgs = state.packages.filter(p => p.category === 'quay').sort((a, b) => a.price - b.price);
+      const comboPkgs = state.packages.filter(p => p.category === 'combo').sort((a, b) => a.price - b.price);
+      const lePkgs = state.packages.filter(p => p.category === 'lecung').sort((a, b) => a.price - b.price);
+      const mkPkgs = state.packages.filter(p => p.category === 'makeup');
+      const customPkgs = state.packages.filter(p => !['chup', 'quay', 'combo', 'lecung', 'makeup'].includes(p.category));
+
+      // Pick optional add-ons if customer checked Makeup or Ceremony
+      const pickMakeupPkg = (preferHome) => {
+        if (!needMakeup || mkPkgs.length === 0) return null;
+        if (preferHome) {
+          return mkPkgs.find(p => p.id === 'mk-codau-nha') || mkPkgs[0];
+        }
+        return mkPkgs.find(p => p.id === 'mk-codau-tiem') || mkPkgs[0];
+      };
+
+      const pickLePkg = (fullDay) => {
+        if (!needLe || lePkgs.length === 0) return null;
+        if (fullDay) {
+          return lePkgs.find(p => p.price >= 2000000) || lePkgs[0];
+        }
+        return lePkgs.find(p => p.price <= 1000000) || lePkgs[0];
+      };
+
+      const addonMk = pickMakeupPkg(budget >= 11000000);
+      const addonLe = pickLePkg(budget >= 15000000);
+      const addons = [];
+      if (addonMk) addons.push(addonMk);
+      if (addonLe) addons.push(addonLe);
+      const addonCost = addons.reduce((sum, a) => sum + Number(a.price), 0);
+
+      // Core budget remaining for main Chụp / Quay / Combo package
+      const coreBudget = Math.max(1000000, budget - addonCost);
+
+      const makeBundleObj = (coreItems, isComboPkg, isMulti) => {
+        const items = [...coreItems];
+        addons.forEach(a => {
+          if (!items.some(i => i.id === a.id)) items.push(a);
+        });
+        const total = items.reduce((sum, it) => sum + Number(it.price), 0);
+        const diff = total - budget;
+        const absDiff = Math.abs(diff);
+        const hasBestSeller = items.some(i => i.bestSeller);
+        return {
+          items,
+          total,
+          diff,
+          absDiff,
+          isComboPkg,
+          hasBestSeller,
+          isMulti
+        };
+      };
+
+      // CASE 1: Customer wants BOTH Chụp + Quay -> ALWAYS prioritize Studio COMBO 01..06!
+      if (needChup && needQuay && comboPkgs.length > 0) {
+        const comboBundles = comboPkgs.map(c =>
+          makeBundleObj([c], true, c.price >= 15000000 || c.id === 'combo-05' || c.id === 'combo-06')
+        );
+
+        // Only build 1-camera individual pairs (Chụp 1 máy + Quay 1 máy) for low budgets (< Combo 01)
+        const minComboPrice = comboPkgs[0].price; // 10.700.000Đ
+        const lowBudgetPairs = [];
+        chupPkgs.filter(c => c.price <= 4500000).forEach(ch => {
+          quayPkgs.filter(q => q.price <= 5500000).forEach(qu => {
+            if (ch.price + qu.price < minComboPrice) {
+              lowBudgetPairs.push(makeBundleObj([ch, qu], false, false));
+            }
+          });
+        });
+        lowBudgetPairs.sort((a, b) => a.total - b.total);
+
+        let bestFit = null;
+        let saver = null;
+        let upgrade = null;
+
+        if (coreBudget >= minComboPrice - 700000) {
+          // Budget is >= 10tr: Exclusively recommend COMBO packages for Best Fit & Upgrade!
+          // Prefer Combos that fit within (or up to +500k of) budget, prioritizing higher tier / Best Seller within budget
+          const withinBudgetCombos = comboBundles.filter(b => b.total <= budget + 500000);
+
+          if (withinBudgetCombos.length > 0) {
+            // Sort by closest to budget from below, giving Best Seller (Combo 02 / Combo 05) priority when close
+            withinBudgetCombos.sort((a, b) => {
+              const scoreA = (budget - a.total) - (a.hasBestSeller ? 600000 : 0) - (needMultiCam && a.isMulti ? 1500000 : 0);
+              const scoreB = (budget - b.total) - (b.hasBestSeller ? 600000 : 0) - (needMultiCam && b.isMulti ? 1500000 : 0);
+              return scoreA - scoreB;
+            });
+            bestFit = withinBudgetCombos[0];
+          } else {
+            bestFit = comboBundles[0];
+          }
+
+          // Saver: a cheaper Combo if one exists (e.g. Combo 01 at 10.7tr when Best Fit is Combo 02 at 11tr), else best low-budget pair
+          const cheaperCombos = comboBundles
+            .filter(b => b !== bestFit && b.total <= bestFit.total)
+            .sort((a, b) => b.total - a.total);
+          saver = cheaperCombos[0] || lowBudgetPairs[lowBudgetPairs.length - 1] || null;
+
+          // Upgrade: next higher Combo tier (e.g. Combo 02 -> Combo 03, or Combo 03 -> Combo 05 Best Seller)
+          const higherCombos = comboBundles
+            .filter(b => b !== bestFit && b !== saver && b.total > bestFit.total)
+            .sort((a, b) => {
+              const scoreA = a.total - (a.hasBestSeller ? 500000 : 0);
+              const scoreB = b.total - (b.hasBestSeller ? 500000 : 0);
+              return scoreA - scoreB;
+            });
+          upgrade = higherCombos[0] || comboBundles.find(b => b !== bestFit && b !== saver) || null;
+        } else {
+          // Budget is under 10tr (e.g. 7tr - 9.5tr): Best fit is 1-cam pair, and Upgrade is Combo 01 / Combo 02!
+          const fittingPairs = lowBudgetPairs.filter(p => p.total <= budget + 500000);
+          bestFit = fittingPairs.length > 0 ? fittingPairs[fittingPairs.length - 1] : (lowBudgetPairs[0] || comboBundles[0]);
+          saver = lowBudgetPairs.find(p => p !== bestFit && p.total < bestFit.total) || null;
+          // Recommend Combo 01 or Combo 02 as the smart Upgrade!
+          upgrade = comboBundles.find(c => c.hasBestSeller) || comboBundles[0] || null;
+        }
+
+        const results = [];
+        if (bestFit) {
+          const spare = budget - bestFit.total;
+          results.push({
+            tag: '⭐ Khuyên Dùng (Phù Hợp Nhất)',
+            tagColor: 'bg-[#D4AF37] text-[#2E070D]',
+            title: bestFit.isComboPkg ? 'Combo Tối Ưu Trong Ngân Sách' : 'Phương Án Phù Hợp Ngân Sách',
+            bundle: bestFit,
+            reason: bestFit.isComboPkg
+              ? (spare > 0
+                  ? `Gói Combo chuẩn của TACH nằm gọn trong ngân sách ${formatVND(budget)} (tối ưu nhân sự 2 bên gia đình và còn dư ${formatVND(spare)} để thêm Makeup/Lễ nếu cần).`
+                  : `Gói Combo đồng bộ cả ekip chụp & quay với chi phí tối ưu hơn đặt lẻ từng dịch vụ.`)
+              : `Ngân sách dưới 10 triệu nên AI ghép 2 gói 1 máy lẻ vừa tầm tiền; nếu cố thêm một chút lên Combo 01/02 sẽ có tới 2 máy chụp cho cả nhà trai & nhà gái.`
+          });
+        }
+        if (saver) {
+          results.push({
+            tag: '💰 Phương Án Tiết Kiệm',
+            tagColor: 'bg-emerald-300 text-emerald-950',
+            title: saver.isComboPkg ? 'Combo Tiết Kiệm Chi Phí' : 'Gói Ghép Tinh Gọn',
+            bundle: saver,
+            reason: saver.total < budget
+              ? `Tiết kiệm ngay ${formatVND(budget - saver.total)} so với ngân sách dự kiến mà vẫn đảm bảo đầy đủ nghi thức ngày cưới.`
+              : 'Lựa chọn tinh gọn giúp tối ưu chi phí cho ngày trọng đại.'
+          });
+        }
+        if (upgrade) {
+          results.push({
+            tag: '👑 Nâng Cấp Đáng Giá',
+            tagColor: 'bg-amber-200 text-[#4A0E17]',
+            title: upgrade.hasBestSeller ? 'Nâng Cấp Gói Best Seller' : 'Nâng Cấp Thêm Máy Quay/Chụp',
+            bundle: upgrade,
+            reason: 'Tăng cường nhân sự chụp & quay phóng sự xuất phát song song ở cả nhà gái và nhà trai để bắt trọn mọi khoảnh khắc.'
+          });
+        }
+        return results;
+      }
+
+      // CASE 2: Single category (Only Chụp, Only Quay, or Only Makeup/Lễ)
+      let pool = [];
+      if (needChup && !needQuay) {
+        pool = chupPkgs.map(p => makeBundleObj([p], false, p.price >= 6000000));
+      } else if (!needChup && needQuay) {
+        pool = quayPkgs.map(p => makeBundleObj([p], false, p.price >= 9000000));
+      } else {
+        pool = state.packages.map(p => makeBundleObj([p], p.category === 'combo', false));
+      }
+      customPkgs.forEach(cp => pool.push(makeBundleObj([cp], false, false)));
+
+      pool.sort((a, b) => a.absDiff - b.absDiff);
+      const bestFit = pool[0] || null;
+      const saver = pool.filter(p => p !== bestFit && p.total <= budget).sort((a, b) => b.total - a.total)[0]
+        || pool.filter(p => p !== bestFit).sort((a, b) => a.total - b.total)[0] || null;
+      const upgrade = pool.filter(p => p !== bestFit && p !== saver && p.total > (bestFit ? bestFit.total : 0)).sort((a, b) => a.total - b.total)[0]
+        || pool.find(p => p !== bestFit && p !== saver) || null;
+
+      const results = [];
+      if (bestFit) {
+        results.push({
+          tag: '⭐ Phù Hợp Ngân Sách Nhất',
+          tagColor: 'bg-[#D4AF37] text-[#2E070D]',
+          title: 'Phương Án Tối Ưu',
+          bundle: bestFit,
+          reason: bestFit.diff <= 0
+            ? `Nằm gọn trong ngân sách dự kiến (${formatVND(budget)}) và đáp ứng đúng dịch vụ bạn chọn.`
+            : `Gói dịch vụ sát nhất với mức ngân sách và nhu cầu bạn đã chọn.`
+        });
+      }
+      if (saver) {
+        results.push({
+          tag: '💰 Phương Án Tiết Kiệm',
+          tagColor: 'bg-emerald-300 text-emerald-950',
+          title: 'Tinh Gọn & Tiết Kiệm',
+          bundle: saver,
+          reason: 'Phương án tiết kiệm chi phí hơn nhưng vẫn giữ trọn các nghi thức chính.'
+        });
+      }
+      if (upgrade) {
+        results.push({
+          tag: '👑 Nâng Cấp Trọn Vẹn',
+          tagColor: 'bg-amber-200 text-[#4A0E17]',
+          title: 'Nâng Cấp Gói Cao Hơn',
+          bundle: upgrade,
+          reason: 'Bổ sung thêm máy hoặc nâng cấp sang gói đầy đủ quyền lợi hơn cho hai bên gia đình.'
+        });
+      }
+      return results;
+    }
+
+    function renderAiRecommendations() {
+      const budget = Math.max(500000, Number(state.ai.budget) || 12000000);
+      const badge = document.getElementById('aiBudgetFormattedBadge');
+      if (badge) badge.textContent = `Ngân sách: ${formatVND(budget)}`;
+
+      // Update active preset pill highlight
+      document.querySelectorAll('.ai-budget-pill').forEach(btn => {
+        const bVal = Number(btn.getAttribute('data-budget'));
+        if (bVal === budget) {
+          btn.className = 'ai-budget-pill px-2.5 py-1 rounded-full text-[11px] font-bold bg-[#D4AF37] text-[#2E070D] transition border border-[#D4AF37]';
+        } else {
+          btn.className = 'ai-budget-pill px-2.5 py-1 rounded-full text-[11px] font-medium bg-white/10 hover:bg-[#D4AF37] hover:text-[#2E070D] transition border border-white/15';
+        }
+      });
+
+      const recommendations = generateAiBundles();
+      const narrativeBox = document.getElementById('aiNarrativeBox');
+      const grid = document.getElementById('aiRecommendationsGrid');
+      if (!narrativeBox || !grid) return;
+
+      const activeNeeds = [];
+      if (state.ai.needChup) activeNeeds.push('Chụp ngày cưới');
+      if (state.ai.needQuay) activeNeeds.push('Quay ngày cưới');
+      if (state.ai.needMakeup) activeNeeds.push('Makeup Cô Dâu');
+      if (state.ai.needLe) activeNeeds.push('Lễ Nhà Thờ / Hằng Thuận');
+      if (state.ai.needMultiCam) activeNeeds.push('Ưu tiên nhiều máy cho 2 họ');
+
+      const topRec = recommendations[0];
+      if (topRec) {
+        const pkgNames = topRec.bundle.items.map(i => `<strong>${i.name}</strong>`).join(' kết hợp ');
+        narrativeBox.innerHTML = `
+          <div class="flex items-start gap-2.5">
+            <span class="text-lg leading-none mt-0.5">🤖</span>
+            <div>
+              <span class="text-[#E6C762] font-bold">Gợi ý từ AI TACH Wedding:</span>
+              Với mức ngân sách <strong>${formatVND(budget)}</strong> cho nhu cầu <em>(${activeNeeds.join(', ') || 'Tất cả dịch vụ'})</em>, lựa chọn đáng giá nhất là ${pkgNames} (Tổng: <strong class="text-[#E6C762]">${formatVND(topRec.bundle.total)}</strong>). Bạn có thể bấm vào nút <strong>(i)</strong> trên từng gói bên dưới để xem chi tiết hoặc áp dụng ngay vào báo giá!
+            </div>
+          </div>
+        `;
+      } else {
+        narrativeBox.textContent = 'Hãy chọn ít nhất 1 nhu cầu dịch vụ để AI gợi ý gói phù hợp.';
+      }
+
+      grid.innerHTML = '';
+      recommendations.forEach((rec) => {
+        const card = document.createElement('div');
+        card.className = 'bg-[#FBF8F3] text-[#2D1E18] rounded-xl p-4 border border-[#D4AF37]/60 flex flex-col justify-between shadow-md space-y-3';
+
+        const itemsHtml = rec.bundle.items.map(item => `
+          <div class="flex items-center justify-between gap-2 bg-[#F3EAE0] px-2.5 py-1.5 rounded-lg border border-[#E0D2BE]">
+            <div class="min-w-0 flex items-center gap-1.5">
+              <span class="text-[#4A0E17] font-semibold text-xs truncate">${item.name}</span>
+              <button
+                type="button"
+                data-pkg-id="${item.id}"
+                class="ai-open-info-btn w-4 h-4 rounded-full bg-[#6B3E26] hover:bg-[#4A0E17] text-white inline-flex items-center justify-center text-[10px] font-serif italic font-bold shrink-0"
+                title="Xem chi tiết gói này"
+              >i</button>
+            </div>
+            <span class="text-xs font-bold text-[#6B3E26] shrink-0">${formatVND(item.price)}</span>
+          </div>
+        `).join('');
+
+        const diffText = rec.bundle.diff === 0
+          ? '<span class="text-emerald-700 font-semibold">Khớp đúng ngân sách</span>'
+          : rec.bundle.diff < 0
+            ? `<span class="text-emerald-700 font-semibold">Tiết kiệm ${formatVND(Math.abs(rec.bundle.diff))}</span>`
+            : `<span class="text-amber-800 font-semibold">+${formatVND(rec.bundle.diff)} so với budget</span>`;
+
+        card.innerHTML = `
+          <div class="space-y-2.5">
+            <div class="flex items-center justify-between gap-2">
+              <span class="text-[10px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full ${rec.tagColor}">
+                ${rec.tag}
+              </span>
+              <span class="text-[11px]">${diffText}</span>
+            </div>
+
+            <div>
+              <div class="text-xs text-[#6B3E26] font-medium">${rec.title}</div>
+              <div class="text-xl font-bold text-[#4A0E17]">${formatVND(rec.bundle.total)}</div>
+            </div>
+
+            <div class="space-y-1.5">
+              ${itemsHtml}
+            </div>
+
+            <p class="text-[11px] text-[#5A3A28] leading-relaxed bg-white p-2.5 rounded-lg border border-[#EAE0D0]">
+              💡 ${rec.reason}
+            </p>
+          </div>
+
+          <button
+            type="button"
+            class="apply-ai-bundle-btn w-full py-2 px-3 rounded-xl text-xs font-bold bg-[#4A0E17] hover:bg-[#6B1824] text-[#F5E6C8] transition shadow-xs"
+          >
+            ✓ Chọn phương án này vào Báo Giá
+          </button>
+        `;
+
+        card.querySelectorAll('.ai-open-info-btn').forEach(b => {
+          b.addEventListener('click', () => {
+            openInfoModal(b.getAttribute('data-pkg-id'));
+          });
+        });
+
+        card.querySelector('.apply-ai-bundle-btn').addEventListener('click', () => {
+          state.selectedCart = {};
+          rec.bundle.items.forEach(it => {
+            state.selectedCart[it.id] = 1;
+          });
+          renderPricingSections();
+          renderQuoteBar();
+          showToast(`Đã áp dụng "${rec.title}" (${formatVND(rec.bundle.total)}) vào Báo Giá!`);
+        });
+
+        grid.appendChild(card);
+      });
+    }
+
+    // =========================================================================
+    // 6. EVENT LISTENERS & INITIALIZATION
+    // =========================================================================
+    function initEvents() {
+      // Search input
+      const searchInput = document.getElementById('searchInput');
+      const clearSearchBtn = document.getElementById('clearSearchBtn');
+      searchInput.addEventListener('input', (e) => {
+        state.searchQuery = e.target.value;
+        if (state.searchQuery.trim().length > 0) {
+          clearSearchBtn.classList.remove('hidden');
+        } else {
+          clearSearchBtn.classList.add('hidden');
+        }
+        renderPricingSections();
+      });
+
+      clearSearchBtn.addEventListener('click', () => {
+        state.searchQuery = '';
+        searchInput.value = '';
+        clearSearchBtn.classList.add('hidden');
+        renderPricingSections();
+      });
+
+      // Toggle Edit Mode
+      const toggleEditModeBtn = document.getElementById('toggleEditModeBtn');
+      const editModeBanner = document.getElementById('editModeBanner');
+      const editModeBtnLabel = document.getElementById('editModeBtnLabel');
+      const addCustomPkgBtn = document.getElementById('addCustomPkgBtn');
+
+      toggleEditModeBtn.addEventListener('click', () => {
+        state.editMode = !state.editMode;
+        if (state.editMode) {
+          editModeBanner.classList.remove('hidden');
+          editModeBtnLabel.textContent = 'Đóng sửa giá';
+          toggleEditModeBtn.className = 'inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-[#4A0E17] text-[#F5E6C8] border border-[#4A0E17] transition shadow-sm';
+        } else {
+          editModeBanner.classList.add('hidden');
+          editModeBtnLabel.textContent = 'Tuỳ chỉnh giá';
+          toggleEditModeBtn.className = 'inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-white hover:bg-[#F5EFE6] text-[#6B3E26] border border-[#6B3E26] transition shadow-sm';
+        }
+        renderPricingSections();
+      });
+
+      // Reset Prices to Default PDF
+      document.getElementById('resetPricesBtn').addEventListener('click', () => {
+        state.categories = cloneDefaultCategories();
+        state.packages = cloneDefaultPackages();
+        state.activeCategory = 'all';
+        saveState();
+        renderCategoryTabs();
+        renderPricingSections();
+        renderQuoteBar();
+        showToast('Đã khôi phục toàn bộ danh mục & giá gốc theo file PDF 2026');
+      });
+
+      // Info Modal events
+      document.getElementById('closeInfoModalBtn').addEventListener('click', () => {
+        document.getElementById('infoModal').classList.add('hidden');
+        document.getElementById('infoModal').classList.remove('flex');
+      });
+
+      document.getElementById('modalPriceInput').addEventListener('input', (e) => {
+        const pkg = state.packages.find(p => p.id === state.activeModalPkgId);
+        if (!pkg) return;
+        pkg.price = Math.max(0, Number(e.target.value) || 0);
+        document.getElementById('modalPriceDisplay').textContent = formatVND(pkg.price);
+        saveState();
+        renderPricingSections();
+        renderQuoteBar();
+      });
+
+      document.getElementById('modalMinusPriceBtn').addEventListener('click', () => {
+        const pkg = state.packages.find(p => p.id === state.activeModalPkgId);
+        if (!pkg) return;
+        pkg.price = Math.max(0, Number(pkg.price) - 100000);
+        document.getElementById('modalPriceInput').value = pkg.price;
+        document.getElementById('modalPriceDisplay').textContent = formatVND(pkg.price);
+        saveState();
+        renderPricingSections();
+        renderQuoteBar();
+      });
+
+      document.getElementById('modalPlusPriceBtn').addEventListener('click', () => {
+        const pkg = state.packages.find(p => p.id === state.activeModalPkgId);
+        if (!pkg) return;
+        pkg.price = Math.max(0, Number(pkg.price) + 100000);
+        document.getElementById('modalPriceInput').value = pkg.price;
+        document.getElementById('modalPriceDisplay').textContent = formatVND(pkg.price);
+        saveState();
+        renderPricingSections();
+        renderQuoteBar();
+      });
+
+      document.getElementById('toggleModalEditDetailsBtn').addEventListener('click', () => {
+        const sec = document.getElementById('modalEditDetailsSection');
+        sec.classList.toggle('hidden');
+      });
+
+      document.getElementById('saveModalDetailsBtn').addEventListener('click', () => {
+        const pkg = state.packages.find(p => p.id === state.activeModalPkgId);
+        if (!pkg) return;
+        const newName = document.getElementById('modalEditNameInput').value.trim();
+        const newSummary = document.getElementById('modalEditSummaryInput').value.trim();
+        const newBullets = document.getElementById('modalEditBulletsTextarea').value
+          .split('\n')
+          .map(s => s.trim())
+          .filter(Boolean);
+
+        if (newName) pkg.name = newName;
+        if (newSummary) pkg.summary = newSummary;
+        if (newBullets.length > 0) pkg.bullets = newBullets;
+
+        saveState();
+        openInfoModal(pkg.id);
+        renderPricingSections();
+        showToast('Đã lưu thông tin chi tiết gói');
+      });
+
+      document.getElementById('modalSelectPkgBtn').addEventListener('click', () => {
+        const pkgId = state.activeModalPkgId;
+        if (!pkgId) return;
+        if (state.selectedCart[pkgId]) {
+          delete state.selectedCart[pkgId];
+        } else {
+          state.selectedCart[pkgId] = 1;
+        }
+        updateModalSelectButtonText(pkgId);
+        renderPricingSections();
+        renderQuoteBar();
+      });
+
+      // Process & Notes Modal
+      document.getElementById('openProcessModalBtn').addEventListener('click', () => {
+        const m = document.getElementById('processModal');
+        m.classList.remove('hidden');
+        m.classList.add('flex');
+      });
+      document.getElementById('closeProcessModalBtn').addEventListener('click', () => {
+        const m = document.getElementById('processModal');
+        m.classList.add('hidden');
+        m.classList.remove('flex');
+      });
+
+      // Quote Modal
+      const openQuote = () => {
+        renderQuoteModalContent();
+        const m = document.getElementById('quoteModal');
+        m.classList.remove('hidden');
+        m.classList.add('flex');
+      };
+      document.getElementById('openQuoteModalBtn').addEventListener('click', openQuote);
+      document.getElementById('viewQuoteBtn').addEventListener('click', openQuote);
+      document.getElementById('closeQuoteModalBtn').addEventListener('click', () => {
+        const m = document.getElementById('quoteModal');
+        m.classList.add('hidden');
+        m.classList.remove('flex');
+      });
+
+      document.getElementById('clearQuoteBtn').addEventListener('click', () => {
+        state.selectedCart = {};
+        state.traiBuoiSurcharge = false;
+        state.extraTravelFee = 0;
+        document.getElementById('traiBuoiCheckbox').checked = false;
+        document.getElementById('extraTravelInput').value = 0;
+        renderPricingSections();
+        renderQuoteBar();
+      });
+
+      document.getElementById('traiBuoiCheckbox').addEventListener('change', (e) => {
+        state.traiBuoiSurcharge = e.target.checked;
+        renderQuoteBar();
+        renderQuoteModalContent();
+      });
+
+      document.getElementById('extraTravelInput').addEventListener('input', (e) => {
+        state.extraTravelFee = Math.max(0, Number(e.target.value) || 0);
+        renderQuoteBar();
+        renderQuoteModalContent();
+      });
+
+      document.getElementById('copyQuoteTextBtn').addEventListener('click', () => {
+        copyTextToClipboard(buildQuoteMessage(), 'Đã sao chép báo giá vào bộ nhớ tạm!');
+      });
+
+      document.getElementById('copyFullPriceTableBtn').addEventListener('click', () => {
+        copyTextToClipboard(buildFullPriceTableText(), 'Đã sao chép toàn bộ bảng giá!');
+      });
+
+      // Delete package inside Info Modal
+      document.getElementById('deleteModalPkgBtn').addEventListener('click', () => {
+        const pkgId = state.activeModalPkgId;
+        if (!pkgId) return;
+        const pkg = state.packages.find(p => p.id === pkgId);
+        state.packages = state.packages.filter(p => p.id !== pkgId);
+        delete state.selectedCart[pkgId];
+        document.getElementById('infoModal').classList.add('hidden');
+        document.getElementById('infoModal').classList.remove('flex');
+        saveState();
+        renderCategoryTabs();
+        renderPricingSections();
+        renderQuoteBar();
+        showToast(`Đã xoá gói: ${pkg ? pkg.name : ''}`);
+      });
+
+      // Export & Import JSON configuration
+      document.getElementById('exportJsonBtn').addEventListener('click', () => {
+        const dataStr = JSON.stringify({
+          categories: state.categories,
+          packages: state.packages
+        }, null, 2);
+        const blob = new Blob([dataStr], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'bang_gia_tach_wedding_2026_backup.json';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        showToast('Đã tải xuống file sao lưu bảng giá (.json)');
+      });
+
+      const importJsonInput = document.getElementById('importJsonInput');
+      document.getElementById('importJsonBtn').addEventListener('click', () => {
+        importJsonInput.click();
+      });
+      importJsonInput.addEventListener('change', (e) => {
+        const file = e.target.files && e.target.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = (ev) => {
+          try {
+            const parsed = JSON.parse(ev.target.result);
+            if (Array.isArray(parsed.packages) && parsed.packages.length > 0) {
+              if (Array.isArray(parsed.categories) && parsed.categories.length > 0) {
+                state.categories = parsed.categories;
+              }
+              state.packages = parsed.packages;
+              saveState();
+              renderCategoryTabs();
+              renderPricingSections();
+              renderQuoteBar();
+              showToast('Đã nạp dữ liệu bảng giá thành công!');
+            } else {
+              showToast('File không đúng định dạng bảng giá');
+            }
+          } catch (err) {
+            showToast('Không thể đọc file cấu hình');
+          }
+        };
+        reader.readAsText(file);
+      });
+
+      // AI Budget Advisor Interactive Controls
+      const aiBudgetInput = document.getElementById('aiBudgetInput');
+      const aiBudgetSlider = document.getElementById('aiBudgetSlider');
+      const syncBudget = (val) => {
+        const num = Math.max(500000, Number(val) || 12000000);
+        state.ai.budget = num;
+        aiBudgetInput.value = num;
+        aiBudgetSlider.value = Math.min(30000000, Math.max(2000000, num));
+        renderAiRecommendations();
+      };
+
+      aiBudgetInput.addEventListener('input', (e) => syncBudget(e.target.value));
+      aiBudgetSlider.addEventListener('input', (e) => syncBudget(e.target.value));
+
+      document.querySelectorAll('.ai-budget-pill').forEach(btn => {
+        btn.addEventListener('click', () => {
+          syncBudget(btn.getAttribute('data-budget'));
+        });
+      });
+
+      const bindAiCheck = (id, key) => {
+        const el = document.getElementById(id);
+        el.addEventListener('change', (e) => {
+          state.ai[key] = e.target.checked;
+          renderAiRecommendations();
+        });
+      };
+      bindAiCheck('aiNeedChup', 'needChup');
+      bindAiCheck('aiNeedQuay', 'needQuay');
+      bindAiCheck('aiNeedMakeup', 'needMakeup');
+      bindAiCheck('aiNeedLe', 'needLe');
+      bindAiCheck('aiNeedMultiCam', 'needMultiCam');
+
+      const handleAiNaturalPrompt = () => {
+        const text = document.getElementById('aiChatInput').value;
+        const parsed = parseNaturalLanguagePrompt(text);
+        if (!parsed) {
+          renderAiRecommendations();
+          showToast('AI đã cập nhật gợi ý theo ngân sách hiện tại');
+          return;
+        }
+        if (parsed.detectedBudget) {
+          syncBudget(parsed.detectedBudget);
+        }
+        if (parsed.mentionsCombo) {
+          state.ai.needChup = true;
+          state.ai.needQuay = true;
+          document.getElementById('aiNeedChup').checked = true;
+          document.getElementById('aiNeedQuay').checked = true;
+        } else if (parsed.mentionsChup || parsed.mentionsQuay) {
+          state.ai.needChup = parsed.mentionsChup;
+          state.ai.needQuay = parsed.mentionsQuay;
+          document.getElementById('aiNeedChup').checked = parsed.mentionsChup;
+          document.getElementById('aiNeedQuay').checked = parsed.mentionsQuay;
+        }
+        if (parsed.mentionsMakeup) {
+          state.ai.needMakeup = true;
+          document.getElementById('aiNeedMakeup').checked = true;
+        }
+        if (parsed.mentionsLe) {
+          state.ai.needLe = true;
+          document.getElementById('aiNeedLe').checked = true;
+        }
+        if (parsed.mentionsMulti) {
+          state.ai.needMultiCam = true;
+          document.getElementById('aiNeedMultiCam').checked = true;
+        }
+        renderAiRecommendations();
+        showToast('✨ AI đã phân tích yêu cầu & đề xuất 3 phương án phù hợp nhất!');
+      };
+
+      document.getElementById('aiAskBtn').addEventListener('click', handleAiNaturalPrompt);
+      document.getElementById('aiChatInput').addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') handleAiNaturalPrompt();
+      });
+
+      const collapseAiPanelBtn = document.getElementById('collapseAiPanelBtn');
+      const aiAdvisorBody = document.getElementById('aiAdvisorBody');
+      collapseAiPanelBtn.addEventListener('click', () => {
+        state.ai.collapsed = !state.ai.collapsed;
+        if (state.ai.collapsed) {
+          aiAdvisorBody.classList.add('hidden');
+          collapseAiPanelBtn.textContent = 'Mở rộng ▼';
+        } else {
+          aiAdvisorBody.classList.remove('hidden');
+          collapseAiPanelBtn.textContent = 'Thu gọn ▲';
+        }
+      });
+
+      document.getElementById('toggleAiAdvisorBtn').addEventListener('click', () => {
+        const sec = document.getElementById('aiAdvisorSection');
+        if (state.ai.collapsed) {
+          state.ai.collapsed = false;
+          aiAdvisorBody.classList.remove('hidden');
+          collapseAiPanelBtn.textContent = 'Thu gọn ▲';
+        }
+        sec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+
+      // Add Custom Package & New Category Modal
+      const newPkgCatSelect = document.getElementById('newPkgCatSelect');
+      const newCategoryFieldsBox = document.getElementById('newCategoryFieldsBox');
+      newPkgCatSelect.addEventListener('change', (e) => {
+        if (e.target.value === '__new__') {
+          newCategoryFieldsBox.classList.remove('hidden');
+        } else {
+          newCategoryFieldsBox.classList.add('hidden');
+        }
+      });
+
+      document.getElementById('addCustomPkgBtn').addEventListener('click', () => {
+        populateCategorySelectDropdown();
+        newCategoryFieldsBox.classList.add('hidden');
+        const m = document.getElementById('addPkgModal');
+        m.classList.remove('hidden');
+        m.classList.add('flex');
+      });
+      const closeAddModal = () => {
+        const m = document.getElementById('addPkgModal');
+        m.classList.add('hidden');
+        m.classList.remove('flex');
+      };
+      document.getElementById('closeAddPkgModalBtn').addEventListener('click', closeAddModal);
+      document.getElementById('cancelAddPkgBtn').addEventListener('click', closeAddModal);
+
+      document.getElementById('confirmAddPkgBtn').addEventListener('click', () => {
+        let catId = document.getElementById('newPkgCatSelect').value;
+        const name = document.getElementById('newPkgNameInput').value.trim();
+        const price = Math.max(0, Number(document.getElementById('newPkgPriceInput').value) || 0);
+        const badge = document.getElementById('newPkgBadgeInput').value.trim() || 'Tuỳ chỉnh';
+        const bestSeller = document.getElementById('newPkgBestSellerInput').checked;
+        const summary = document.getElementById('newPkgSummaryInput').value.trim() || 'Gói dịch vụ bổ sung';
+        const bulletsRaw = document.getElementById('newPkgBulletsInput').value
+          .split('\n')
+          .map(s => s.trim())
+          .filter(Boolean);
+
+        if (!name) {
+          showToast('Vui lòng nhập tên gói dịch vụ mới');
+          return;
+        }
+
+        if (catId === '__new__') {
+          const newCatName = document.getElementById('newCatNameInput').value.trim();
+          const newCatDesc = document.getElementById('newCatDescInput').value.trim() || 'Danh mục dịch vụ bổ sung theo nhu cầu ngày cưới.';
+          if (!newCatName) {
+            showToast('Vui lòng nhập tên danh mục dịch vụ mới');
+            return;
+          }
+          catId = 'cat-' + Date.now();
+          const nextNum = String(state.categories.filter(c => c.id !== 'all').length + 1).padStart(2, '0');
+          state.categories.push({
+            id: catId,
+            num: nextNum,
+            name: newCatName,
+            shortName: newCatName.length > 22 ? newCatName.slice(0, 20) + '…' : newCatName,
+            desc: newCatDesc,
+            notes: [
+              'Dịch vụ bổ sung của TACH Wedding Coverage - Tiệm Ảnh Chú Hùng',
+              'Liên hệ trực tiếp để được tư vấn chi tiết theo lịch trình ngày cưới'
+            ]
+          });
+        }
+
+        const newPkg = {
+          id: 'custom-' + Date.now(),
+          category: catId,
+          name,
+          badge,
+          bestSeller,
+          price,
+          summary,
+          bullets: bulletsRaw.length > 0 ? bulletsRaw : [summary]
+        };
+
+        state.packages.push(newPkg);
+        saveState();
+        renderCategoryTabs();
+        renderPricingSections();
+        closeAddModal();
+        // Reset inputs
+        document.getElementById('newPkgNameInput').value = '';
+        document.getElementById('newPkgSummaryInput').value = '';
+        document.getElementById('newPkgBulletsInput').value = '';
+        document.getElementById('newCatNameInput').value = '';
+        document.getElementById('newCatDescInput').value = '';
+        showToast(`Đã thêm dịch vụ mới: ${name}`);
+      });
+
+      // Publish & Customer Mode Modal Events
+      const publishModal = document.getElementById('publishModal');
+      document.getElementById('openPublishModalBtn').addEventListener('click', () => {
+        publishModal.classList.remove('hidden');
+        publishModal.classList.add('flex');
+      });
+      document.getElementById('closePublishModalBtn').addEventListener('click', () => {
+        publishModal.classList.add('hidden');
+        publishModal.classList.remove('flex');
+      });
+      document.getElementById('downloadCustomerHtmlBtn').addEventListener('click', () => {
+        CLOUD_SYNC_URL = document.getElementById('cloudSyncUrlInput').value.trim();
+        ADMIN_PIN = document.getElementById('adminPinConfigInput').value.trim() || '2026';
+        saveState();
+        exportCustomerReadonlyHtml();
+      });
+
+      document.getElementById('saveCloudSyncBtn').addEventListener('click', () => {
+        CLOUD_SYNC_URL = document.getElementById('cloudSyncUrlInput').value.trim();
+        ADMIN_PIN = document.getElementById('adminPinConfigInput').value.trim() || '2026';
+        saveState();
+        pushToCloudIfConfigured(true);
+      });
+
+      // Admin PIN Modal Events (for unlocking edit tools on live customer domain)
+      const adminPinModal = document.getElementById('adminPinModal');
+      const closePinModal = () => {
+        adminPinModal.classList.add('hidden');
+        adminPinModal.classList.remove('flex');
+      };
+      document.getElementById('footerAdminPinBtn').addEventListener('click', () => {
+        if (!state.customerPreview) {
+          showToast('Bạn đang ở chế độ Quản trị rồi!');
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+          return;
+        }
+        document.getElementById('enterPinInput').value = '';
+        adminPinModal.classList.remove('hidden');
+        adminPinModal.classList.add('flex');
+      });
+      document.getElementById('closeAdminPinModalBtn').addEventListener('click', closePinModal);
+      document.getElementById('cancelPinBtn').addEventListener('click', closePinModal);
+
+      const verifyPinAndUnlock = () => {
+        const entered = document.getElementById('enterPinInput').value.trim();
+        if (entered === ADMIN_PIN) {
+          state.customerPreview = false;
+          state.editMode = true;
+          applyCustomerPreviewUI();
+          document.getElementById('editModeBanner').classList.remove('hidden');
+          document.getElementById('editModeBtnLabel').textContent = 'Đóng sửa giá';
+          renderPricingSections();
+          closePinModal();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+          showToast('🔓 Đã mở khoá Quản trị viên! Bạn có thể sửa giá ngay.');
+        } else {
+          showToast('Mã PIN chưa đúng, vui lòng thử lại!');
+        }
+      };
+      document.getElementById('confirmPinBtn').addEventListener('click', verifyPinAndUnlock);
+      document.getElementById('enterPinInput').addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') verifyPinAndUnlock();
+      });
+      document.getElementById('previewCustomerModeBtn').addEventListener('click', () => {
+        publishModal.classList.add('hidden');
+        publishModal.classList.remove('flex');
+        state.customerPreview = true;
+        applyCustomerPreviewUI();
+        showToast('Đang hiển thị chế độ Khách hàng (Đã ẩn mọi nút sửa giá)');
+      });
+      document.getElementById('exitCustomerPreviewBtn').addEventListener('click', () => {
+        state.customerPreview = false;
+        applyCustomerPreviewUI();
+        showToast('Đã quay lại chế độ Quản trị (Chỉnh sửa giá & thêm gói)');
+      });
+
+      // Close modals on backdrop click
+      ['infoModal', 'processModal', 'quoteModal', 'addPkgModal', 'publishModal', 'adminPinModal'].forEach(id => {
+        const el = document.getElementById(id);
+        el.addEventListener('click', (e) => {
+          if (e.target === el) {
+            el.classList.add('hidden');
+            el.classList.remove('flex');
+          }
+        });
+      });
+    }
+
+    // Boot application
+    loadState();
+    populateCategorySelectDropdown();
+    initEvents();
+    renderCategoryTabs();
+    renderPricingSections();
+    renderQuoteBar();
+    renderAiRecommendations();
+    updateResetButtonVisibility();
+    if (CLIENT_READONLY_MODE) {
+      applyCustomerPreviewUI();
+    }
+    fetchFromCloudIfConfigured();
+  </script>
+</body>
+</html>
